@@ -15,7 +15,7 @@
 - 当前实际存储为 JSON，没有本地数据库；后续 SQLite 采集、去重、核对及导出计划已记录，不增加第一版前置要求。
 - 上一轮 `npm run check` 和 IAB / CUA 桌面、手机关键交互通过。本轮默认命令因 tsx IPC 的 EPERM 未完整执行；等价分步的全量数据、类型、13 个单元测试与 dist 生产构建通过，IAB 桌面 / 手机增量复验通过，详见 [验收记录](docs/verification.md)。
 - 独立 Playwright CLI 浏览器启动受环境限制，未通过；不能与 IAB 实测混称为 CLI 回归通过。
-- 本地已有提交 `0b8d0ab`（feat: publish AI 经纬 desktop website），origin 已关联 wonderjz99/AI-lian；GitHub 连接器复查远程仓库仍为空，尚未公开部署。用户启动的生产预览 http://127.0.0.1:4173/ 此前已通过复验。
+- 最新本地提交 `2f9a934`（feat: publish AI 经纬 desktop website），origin 已关联 wonderjz99/AI-lian；用户首次推送在连接 github.com:443 时超时，尚未公开部署。用户启动的生产预览 http://127.0.0.1:4173/ 此前已通过复验。
 - 最新范围：先完成桌面网页与发布，手机开发和验收暂缓，保留已实现的响应式界面。用户已授权新建 AI-lian 仓库、推送代码并通过 GitHub Pages 公开发布。
 - 已准备 `.github/workflows/pages.yml` 和 `scripts/publish-github.sh`：项目检查、桌面 Playwright 回归通过后才部署；推送 main 自动更新网站。GitHub 已确认公开仓库 wonderjz99/AI-lian 创建成功，但代码尚未推送，Pages 尚未确认启用。
 
@@ -50,7 +50,7 @@
 | 浏览器实测 | 2026-10-08 IAB / CUA，桌面 1505×1045、1280×720 观察，手机 390×844；关键流程通过 |
 | CLI 浏览器 | 本轮 `npm run test:e2e` 在启动 5173 服务时 listen EPERM，未通过；用例保留，改用已有预览 IAB 实测 |
 | 本地预览 | 用户终端启动，http://127.0.0.1:4173/ 已通过最终 IAB 复验 |
-| Git / 部署 | 本地提交 0b8d0ab；远程公开仓库已创建但为空 / 尚未公开发布 |
+| Git / 部署 | 本地提交 2f9a934；远程公开仓库已创建，首次推送连接超时 / 尚未公开发布 |
 | 发布准备 | Bash 语法与 Ruby YAML 解析通过，桌面 E2E 成功发现 4 项用例；脚本实际停在 GitHub API 访问预检，未创建仓库或推送 |
 
 ## 工作记录
@@ -75,3 +75,4 @@
 - 新资料全量校验、类型、13 个单元测试及 dist 构建通过；默认 check 与 CLI E2E 的环境限制如上表。桌面 / 手机 IAB 增量复验及控制台检查通过，新截图已归档；可靠公开入口记录到 `docs/data-sources.md`。未新增 API、数据库、定时任务或公开部署。
 - 用户指定手机暂缓，并授权新建 AI-lian 仓库与 GitHub Pages 发布；同步规格和 AGENTS。已新增自动检查 / 桌面 E2E / 发布工作流及首次发布脚本，保留普通推送，不强制覆盖远程或更改已有私有仓库可见性。
 - 修正 Playwright 临时目录及截图路径的 macOS 依赖，使用系统 tmpdir 与 testInfo.outputPath，可供 Linux CI 使用。脚本语法、工作流 YAML、桌面 4 项用例发现、全量数据、类型、13 个单元测试与生产构建通过。默认 check 仍因 tsx IPC 失败，桌面 E2E 仍在本地服务监听时 EPERM，未执行浏览器用例；浏览器工具本轮超时，未补做实测。首次发布脚本实际运行在 API 连接预检处退出，没有远程变更。
+- 用户终端已保存提交 2f9a934，推送 GitHub 的 HTTPS 连接超时。只读检查发现 Clash / mihomo 监听 127.0.0.1:7897，Git 没有已配置的代理；已给出仅对发布命令生效的代理用法。当前会话访问该本地代理仍返回 operation not permitted，尚未验证该路径成功，需用户普通终端执行；未修改系统或全局 Git 代理设置。

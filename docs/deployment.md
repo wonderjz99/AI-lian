@@ -38,4 +38,15 @@ Vite 的相对资源路径 `base: './'` 保持不变，可部署于项目路径 
 
 代理命令行仍无法连接 api.github.com，因此首次推送、启用 Pages 及触发工作流需要用户普通终端完成。GitHub Actions 与公网浏览器验收仍待实际发布后执行。
 
+### 首次推送连接超时
+
+用户后续执行已保存本地提交 `2f9a934`，但 HTTPS 推送在连接 github.com:443 时超时。已发现本机 Clash / mihomo 监听 127.0.0.1:7897；当前 Git 未配置 HTTP 代理。可在用户普通终端对本次发布临时使用现有代理，不改全局 Git 配置：
+
+```sh
+cd /Users/jim/Projects/AI-lian
+http_proxy=http://127.0.0.1:7897 https_proxy=http://127.0.0.1:7897 bash scripts/publish-github.sh
+```
+
+代理需要保持运行。此连接方式在当前代理会话内未验证成功：访问本机 7897 返回 operation not permitted，需由用户终端实测。若仍失败，保留完整错误输出继续定位，不重复创建仓库或强制推送。
+
 官方依据：[自定义 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[创建仓库 CLI](https://cli.github.com/manual/gh_repo_create)、[Pages REST API](https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site)。
