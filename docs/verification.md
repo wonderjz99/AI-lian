@@ -1,12 +1,12 @@
 # 第一版验收记录
 
-资料截止：2026-10-09，数据版本 1.1.0。复核日期：2026-10-09。当前未公开部署。
+资料截止：2026-10-09，数据版本 1.2.0。当前新增资料仅在本地，未公开部署。
 
 ## 当前结论
 
-应用已实现；2026-10-08 完成 IAB / CUA 桌面与手机视口交互实测，2026-10-09 补充新闻和资本资料后重新完成数据、类型、单元测试及项目 dist 生产构建。文档和截图已入库；用户启动的生产预览 http://127.0.0.1:4173/ 已刷新至新版数据，桌面 / 手机增量复验通过。Git 暂存此前实际返回 `.git/index.lock: Operation not permitted`，仍未完成提交。
+本轮新增小米并扩充至 37 家公司、46 条关系（24 条资本 / 22 条产业）、54 个事件、54 篇报道。每家公司至少有一项可追溯动态，含历史资料；不保证每家公司都有近期动态或两类关系。仅腾讯有可比市值，其余 36 家为空。逐公司缺口见 [覆盖核对](company-coverage.md)。
 
-正式资料为 36 家公司、21 条关系（13 条资本 / 8 条产业）、26 个事件、27 篇报道。五层均有覆盖；新闻精简，不以每家公司都有新闻为门槛。市值快照仅覆盖腾讯，其余 35 家为缺失值，不能把本版理解为完整市值比较工具。
+全量数据、类型、14 项单元测试及 dist 构建通过。新资料已进入静态产物；本轮桌面浏览器检查受限，未确认页面当前显示、交互、截图或控制台。下文既有截图和云端结果属于上一版，不作为 v1.2 浏览器通过依据。
 
 ## 命令验证
 
@@ -14,13 +14,13 @@
 
 | 命令 | 2026-10-09 结果 |
 | --- | --- |
-| `node --import tsx scripts/validate-data.ts` | 通过，全量 36 / 21 / 26 / 27 |
+| `node --import tsx scripts/validate-data.ts` | 通过，全量 37 / 46 / 54 / 54 |
 | `npm run typecheck` | 通过 |
-| `node node_modules/vitest/vitest.mjs run tests --configLoader runner --cache=false` | 1 个文件、13 个测试通过 |
+| `node node_modules/vitest/vitest.mjs run tests --configLoader runner --cache=false` | 1 个文件、14 个测试通过 |
 | `node node_modules/vite/bin/vite.js build --configLoader runner` | 通过，已更新本地预览使用的 dist |
-| `npm run test:e2e` | 未通过，配置启动 127.0.0.1:5173 返回 listen EPERM，尚未执行浏览器用例；改用已运行预览的 IAB 实测 |
+| `npm run test:e2e` | 未通过，配置启动 127.0.0.1:5173 返回 listen EPERM，尚未执行浏览器用例；本轮 CUA getState 也超时，未补做 IAB 实测 |
 
-产物：CSS 18.08 KB、主 JS 392.49 KB、图谱 JS 442.89 KB；gzip 分别 4.49 / 118.13 / 140.92 KB。新增资料随静态构建导出，网页没有新增运行时接口。
+产物：CSS 18.08 KB、主 JS 426.67 KB、图谱 JS 442.89 KB；gzip 分别 4.49 / 126.14 / 140.92 KB。新增资料随静态构建导出，网页没有新增运行时接口。
 
 单元测试验证：单 / 双选、第三家替换及取消；英文 / 别名 / 股票代码搜索；无关系仍有共同报道；双公司全部关系；共同与各自动态及发布时间排序；缺失市值、等大和估值隔离；全量公司数量；真实日历日期；重复 ID、无效引用、自连与来源；未知关系类型与市值口径。
 
@@ -82,3 +82,25 @@ Browser plugin not available。独立 Playwright CLI 首次缺浏览器二进制
 - 全量数据、类型、13 个单元测试与生产构建再次通过，资源与增量资料版本一致。默认 npm run check 因 tsx IPC 的 EPERM 未完整执行；桌面 E2E 在启动 5173 服务时 EPERM，未实际执行浏览器用例。
 - GitHub 连接器只读确认账号 wonderjz99。命令行 gh api user 及发布脚本预检均在连接 api.github.com 时失败，未产生远程变更；浏览器新建标签页及后续状态读取超时，本轮没有浏览器实测证据。
 - 预计 URL、普通终端发布步骤及后续核对要求见 [部署说明](deployment.md)。GitHub 托管 CI、Pages 部署和公网网页仍待首次发布后实际验证。
+
+### GitHub 实际运行（2026-10-09）
+
+代码已推送至 main（95c8a41）。连接器读取 [Actions 运行 37897855263](https://github.com/wonderjz99/AI-lian/actions/runs/37897855263) 的 job 状态与原始日志，确认 Ubuntu 上数据 / 类型 / 构建通过，13 个单元测试及 4 个桌面 Playwright 回归实际通过，静态站点产物上传成功。此前“本地 CLI 受限”的记录仍适用于本地环境，不能再泛称桌面 E2E 尚未在任何环境执行。
+
+deploy job 113713587433 在 configure-pages 步骤报 Get Pages site failed / Not Found，Publish website 跳过；当前尚未上线。需要将仓库 Pages Source 设为 GitHub Actions 并重跑失败任务。本轮浏览器状态工具再次超时，未完成 Pages 设置或公网交互验收。
+
+### v1.2 桌面验证限制（2026-10-09）
+
+- 目标流程：4173 预览 → 搜索小米 / MiMo / 01810 → 选择智谱 → 查看投资和共同报道 → 切换产业视图并查看百度合作。
+- Browser plugin not available；按 frontend-testing-debugging 使用仓库 Playwright。`npm run test:e2e -- --project=desktop` 在 5173 listen EPERM 处退出，未进入浏览器。辅助 CUA `getState` 15 秒超时并重置。
+- 页面身份、白屏、错误覆盖层、控制台、截图、实际交互：本轮均未验证。单元测试证明小米别名 / 代码搜索、资本边及逐公司事件覆盖；不代替实际渲染验证。
+- 用户普通终端后续执行桌面 E2E；待浏览器可用后复验新增节点与更密集连线的标签和遮挡。手机按最新要求暂缓。
+
+
+## 2026-10-09 v1.3 数据增量
+
+- 37家公司 / 62条关系 / 68个事件 / 67篇报道，全量数据校验通过；类型检查、15项单元测试、Vite生产构建通过。
+- 新增关系覆盖门禁：无孤立公司；中芯与华为联合研发不能被记为双方交叉持股。数据改动，未修改界面代码。
+- `npm run check`在tsx IPC监听时EPERM；`node --import tsx scripts/validate-data.ts`、`npm run typecheck`、Vitest runner和Vite runner分步完成对应检查。
+- Browser插件不可用，使用仓库Playwright路径。`npm run test:e2e -- --project=desktop`在启动127.0.0.1:5173服务时EPERM，浏览器用例未执行；实际页面身份、渲染、交互、截图、框架覆盖层与控制台均未在本轮复验。手机按用户要求暂缓。
+- dist已重建供用户已有4173预览刷新；不等于线上部署完成。

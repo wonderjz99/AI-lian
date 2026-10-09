@@ -34,9 +34,11 @@ Vite 的相对资源路径 `base: './'` 保持不变，可部署于项目路径 
 
 ## 当前实际状态
 
-用户终端已创建公开仓库 wonderjz99/AI-lian，本地提交为 `0b8d0ab`，origin 已关联。GitHub 连接器实际读取确认远程仓库仍为空，尚无上传的工作流；不能将仓库创建视作网站上线。若脚本仍在运行，让它继续；若已经退出，可在用户普通终端重新运行发布脚本，它会复用现有仓库与提交，不重复创建。
+用户已成功上传代码及工作流，main 提交为 `95c8a41`。[Actions 运行 37897855263](https://github.com/wonderjz99/AI-lian/actions/runs/37897855263) 的 build 成功，数据、类型、13 个单元测试、生产构建及 4 个桌面浏览器用例均通过。deploy 在 configure-pages 获取站点时返回 Not Found，因此没有执行网站发布。
 
-代理命令行仍无法连接 api.github.com，因此首次推送、启用 Pages 及触发工作流需要用户普通终端完成。GitHub Actions 与公网浏览器验收仍待实际发布后执行。
+恢复方法：打开 [仓库 Pages 设置](https://github.com/wonderjz99/AI-lian/settings/pages)，将 Build and deployment → Source 设为 GitHub Actions，然后在上述运行页面选择 Re-run jobs → Re-run failed jobs。部署成功后仍需访问公网网址验收。
+
+代理命令行无法连接 api.github.com，浏览器工具本轮也超时，当前连接器没有修改 Pages 设置的接口；该设置需要用户完成。没有跳过测试或更改已通过的工作流来绕过发布问题。
 
 ### 首次推送连接超时
 
@@ -50,3 +52,7 @@ http_proxy=http://127.0.0.1:7897 https_proxy=http://127.0.0.1:7897 bash scripts/
 代理需要保持运行。此连接方式在当前代理会话内未验证成功：访问本机 7897 返回 operation not permitted，需由用户终端实测。若仍失败，保留完整错误输出继续定位，不重复创建仓库或强制推送。
 
 官方依据：[自定义 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[创建仓库 CLI](https://cli.github.com/manual/gh_repo_create)、[Pages REST API](https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site)。
+
+### 2026-10-09 v1.3 发布尝试
+
+用户授权推送上线。远程main仍为95c8a41，与本地基线一致；GitHub读取成功。git add在.git/index.lock写入时Operation not permitted，gh CLI连接api.github.com失败；GitHub连接器create_tree返回403 Resource not accessible by integration。本轮没有产生远程提交、推送或触发部署，不能视为上线完成。已准备的数据仍保存在本地，可在用户普通终端运行现有发布脚本完成检查、提交、推送、启用Pages及触发工作流。

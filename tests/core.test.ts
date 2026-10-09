@@ -15,6 +15,8 @@ describe('公司选择与查询语义', () => {
     expect(searchCompanies(dataset.companies, 'QWEN').map(c => c.id)).toEqual(['alibaba']);
     expect(searchCompanies(dataset.companies, '昇腾').map(c => c.id)).toEqual(['huawei']);
     expect(searchCompanies(dataset.companies, '02513').map(c => c.id)).toEqual(['zhipu']);
+    expect(searchCompanies(dataset.companies, 'MiMo').map(c => c.id)).toEqual(['xiaomi']);
+    expect(searchCompanies(dataset.companies, '01810').map(c => c.id)).toEqual(['xiaomi']);
     expect(searchCompanies(dataset.companies, '   ')).toEqual([]);
   });
   it('共同报道不要求正式关系存在', () => {
@@ -48,7 +50,9 @@ describe('公司选择与查询语义', () => {
   });
   it('共同报道与各自动态不同，并按真实发表日期倒序', () => {
     expect(queryEvents(dataset.events, dataset.articles, ['tencent', 'wondershare'], true)).toEqual([]);
-    expect(queryEvents(dataset.events, dataset.articles, ['tencent', 'wondershare']).map(e => e.id)).toEqual(['event-tencent-hy3', 'event-huawei-wonder', 'event-zhipu-financing-disclosure']);
+    const sampleIds = ['event-tencent-hy3', 'event-huawei-wonder', 'event-zhipu-financing-disclosure'];
+    const sample = dataset.events.filter(e => sampleIds.includes(e.id));
+    expect(queryEvents(sample, dataset.articles, ['tencent', 'wondershare']).map(e => e.id)).toEqual(sampleIds);
   });
   it('市值缺失保持固定大小，等大模式不受数值影响', () => {
     expect(nodeDiameter(dataset.companies[0], 'marketCap')).toBe(36);
@@ -64,6 +68,25 @@ describe('公司选择与查询语义', () => {
 });
 
 describe('数据质量门禁', () => {
+  it('逐公司关系覆盖没有孤立节点，联合研发不误记为交叉持股', () => {
+    for (const company of dataset.companies) {
+      expect(dataset.relationships.some(r => r.source === company.id || r.target === company.id), company.name).toBe(true);
+    }
+    const smicHuawei = pairRelationships(dataset.relationships, ['smic', 'huawei']);
+    expect(smicHuawei.some(r => r.type === 'partnership')).toBe(true);
+    expect(smicHuawei.some(r => r.type === 'investment' || r.type === 'control')).toBe(false);
+  });
+  it('每家公司至少有一项可追溯动态，新增小米保持单一身份', () => {
+    for (const company of dataset.companies) {
+      const events = queryEvents(dataset.events, dataset.articles, [company.id]);
+      expect(events.length, company.name).toBeGreaterThan(0);
+      expect(events.every(e => e.articleIds.length > 0), company.name).toBe(true);
+    }
+    expect(dataset.companies.filter(c => c.id === 'xiaomi')).toHaveLength(1);
+    expect(pairRelationships(dataset.relationships, ['xiaomi', 'zhipu'])).toEqual(expect.arrayContaining([
+      expect.objectContaining({ source: 'xiaomi', target: 'zhipu', type: 'investment', ownershipPercent: null }),
+    ]));
+  });
   it('正式资料满足全量门禁，小批资料不能作为正式发布', () => {
     expect(validateDataset(dataset)).toEqual([]);
     expect(validateDataset(dataset, true)).toEqual([]);

@@ -337,5 +337,661 @@
     "ownershipPercent": null,
     "ownershipAsOf": null,
     "note": "持股记录对应 2026-07-14，不能保证截至资料截止日仍相同。申报主体为阿里旗下实体；申报比例以 A 类普通股为分母，故全公司持股比例留空，不能由参股推断控制。"
+  },
+  {
+    "id": "xiaomi-zhipu-investment",
+    "source": "xiaomi",
+    "target": "zhipu",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-04-28",
+    "effectiveOn": null,
+    "summary": "智谱官方融资披露将小米列为参投方。",
+    "evidenceArticleIds": [
+      "zhipu-financing-disclosure"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资记录；官网发布日期为 2024-04-28，未给出小米具体交割日、投资主体全称或当前持股比例。顺为不合并到小米。"
+  },
+  {
+    "id": "lenovo-infiniai-investment",
+    "source": "lenovo",
+    "target": "infiniai",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-09-02",
+    "effectiveOn": null,
+    "summary": "联想创投参与无问芯穹 A 轮融资。",
+    "evidenceArticleIds": [
+      "infiniai-2024-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "2024 年历史投资经历，交割具体日期及当前比例未披露。联想创投映射到联想集团；君联资本、顺为资本不按名称归并。"
+  },
+  {
+    "id": "xiaomi-infiniai-investment",
+    "source": "xiaomi",
+    "target": "infiniai",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-09-02",
+    "effectiveOn": null,
+    "summary": "小米参与无问芯穹 A 轮融资。",
+    "evidenceArticleIds": [
+      "infiniai-2024-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "2024 年历史投资经历，交割具体日期及当前比例未披露。联想创投映射到联想集团；君联资本、顺为资本不按名称归并。"
+  },
+  {
+    "id": "infiniai-moonshot-supply",
+    "source": "infiniai",
+    "target": "moonshot",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2024-09-02",
+    "effectiveOn": null,
+    "summary": "提供异构云算力与大模型开发工具链服务。",
+    "evidenceArticleIds": [
+      "infiniai-2024-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "来源描述 2024-09-02 时已在使用；未披露合同期限或后续续约，不能视为已核实至资料截止日仍持续采购。"
+  },
+  {
+    "id": "infiniai-zhipu-supply",
+    "source": "infiniai",
+    "target": "zhipu",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2024-09-02",
+    "effectiveOn": null,
+    "summary": "提供异构云算力与大模型开发工具链服务。",
+    "evidenceArticleIds": [
+      "infiniai-2024-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "来源描述 2024-09-02 时已在使用；未披露合同期限或后续续约，不能视为已核实至资料截止日仍持续采购。"
+  },
+  {
+    "id": "infiniai-minimax-partnership",
+    "source": "infiniai",
+    "target": "minimax",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2026-08-05",
+    "effectiveOn": null,
+    "summary": "签署战略合作协议，共同推进推理优化、Token 服务与行业应用。",
+    "evidenceArticleIds": [
+      "infiniai-minimax-strategic"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "依据指定日期的公开资料；未推断未披露的金额、比例或有效期限。"
+  },
+  {
+    "id": "huawei-chinatelecom-partnership",
+    "source": "huawei",
+    "target": "chinatelecom",
+    "type": "partnership",
+    "status": "ongoing",
+    "confirmedOn": "2026-06-26",
+    "effectiveOn": null,
+    "summary": "联合推进网优任务大模型与自智网络应用。",
+    "evidenceArticleIds": [
+      "huawei-chinatelecom-network-ai"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "来源使用“中国电信”业务品牌，未披露具体签约法人；映射到地图中的中国电信运营业务，不延伸为集团母公司的股权关系。"
+  },
+  {
+    "id": "huawei-yonyou-supply",
+    "source": "huawei",
+    "target": "yonyou",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2026-09-29",
+    "effectiveOn": null,
+    "summary": "为用友 BIP / YonWork 联合方案提供专属云基础设施。",
+    "evidenceArticleIds": [
+      "huawei-yonyou-yonwork"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "供应方向表达联合解决方案中的云底座支撑，不表示已证实用友是最终付款客户；未披露金额或合同期限。"
+  },
+  {
+    "id": "huawei-datagrand-supply",
+    "source": "huawei",
+    "target": "datagrand",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2026-06-08",
+    "effectiveOn": null,
+    "summary": "以昇腾云提供达观金融智能体平台的底层算力支撑。",
+    "evidenceArticleIds": [
+      "datagrand-huawei-inspire"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "来源说明平台技术底座及算力支撑，不披露采购金额、独家供货或持股。"
+  },
+  {
+    "id": "alibaba-baichuan-investment",
+    "source": "alibaba",
+    "target": "baichuan",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2023-10-17",
+    "effectiveOn": null,
+    "summary": "参与百川智能 A1 轮战略融资。",
+    "evidenceArticleIds": [
+      "baichuan-a1-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "媒体直接报道公司融资公告的历史投资记录；没有核实当前持股或投资实体全称，比例留空。"
+  },
+  {
+    "id": "tencent-baichuan-investment",
+    "source": "tencent",
+    "target": "baichuan",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2023-10-17",
+    "effectiveOn": null,
+    "summary": "参与百川智能 A1 轮战略融资。",
+    "evidenceArticleIds": [
+      "baichuan-a1-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "媒体直接报道公司融资公告的历史投资记录；没有核实当前持股或投资实体全称，比例留空。"
+  },
+  {
+    "id": "xiaomi-baichuan-investment",
+    "source": "xiaomi",
+    "target": "baichuan",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2023-10-17",
+    "effectiveOn": null,
+    "summary": "参与百川智能 A1 轮战略融资。",
+    "evidenceArticleIds": [
+      "baichuan-a1-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "媒体直接报道公司融资公告的历史投资记录；没有核实当前持股或投资实体全称，比例留空。"
+  },
+  {
+    "id": "lenovo-fourthparadigm-investment",
+    "source": "lenovo",
+    "target": "fourthparadigm",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2020-04-02",
+    "effectiveOn": null,
+    "summary": "联想创投参与第四范式 C+ 轮融资。",
+    "evidenceArticleIds": [
+      "lenovo-fourthparadigm-financing"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "2020 年历史投资，联想创投映射到联想集团；当前持股及交割日未核实。"
+  },
+  {
+    "id": "lenovo-fourthparadigm-partnership",
+    "source": "lenovo",
+    "target": "fourthparadigm",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2020-06-09",
+    "effectiveOn": null,
+    "summary": "围绕安卓平板的内容、服务与人机交互达成 AI 战略合作。",
+    "evidenceArticleIds": [
+      "lenovo-fourthparadigm-strategic"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史合作公告，未披露期限或后续履行情况；不声称截至 2026 年仍在执行。"
+  },
+  {
+    "id": "fourthparadigm-lenovo-supply",
+    "source": "fourthparadigm",
+    "target": "lenovo",
+    "type": "supply",
+    "status": "announced",
+    "confirmedOn": "2020-06-09",
+    "effectiveOn": null,
+    "summary": "宣布为联想安卓平板提供智能软件与 AI 技术。",
+    "evidenceArticleIds": [
+      "lenovo-fourthparadigm-strategic"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史公告使用将来时，未据此认定已完成采购；不代表当前供应状态。"
+  },
+  {
+    "id": "sugon-hygon-investment",
+    "source": "sugon",
+    "target": "hygon",
+    "type": "investment",
+    "status": "ongoing",
+    "confirmedOn": "2026-05-27",
+    "effectiveOn": null,
+    "summary": "中科曙光官方公告将海光信息明确称为其参股企业。",
+    "evidenceArticleIds": [
+      "sugon-cec-strategic"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅表示 2026-05-27 公告中的参股状态，未录入未复核的比例；不将历史重组方案视为已完成合并或控股。"
+  },
+  {
+    "id": "hygon-transwarp-partnership",
+    "source": "hygon",
+    "target": "transwarp",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2025-11-18",
+    "effectiveOn": null,
+    "summary": "签署战略合作协议，共建联合技术创新中心。",
+    "evidenceArticleIds": [
+      "transwarp-hygon-strategic"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "报道使用“近日”，具体签署日未知；历史签约已宣布，未据此确认截至 2026 年所有项目仍在实施。"
+  },
+  {
+    "id": "huawei-modelbest-investment",
+    "source": "huawei",
+    "target": "modelbest",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-04-12",
+    "effectiveOn": null,
+    "summary": "华为哈勃参与领投面壁智能融资。",
+    "evidenceArticleIds": [
+      "huawei-modelbest-investment"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资；华为哈勃映射到华为集团，当前持股比例及具体交割日未核实。"
+  },
+  {
+    "id": "alibaba-01ai-partnership",
+    "source": "alibaba",
+    "target": "01ai",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2025-01-02",
+    "effectiveOn": null,
+    "summary": "宣布模型平台业务战略合作及产业大模型联合实验室。",
+    "evidenceArticleIds": [
+      "ali-01ai-lab"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史合作公告，阿里云归集团节点；不是控股或收购，未核实 2026 年的具体履约范围。"
+  },
+  {
+    "id": "minimax-alibaba-services",
+    "source": "minimax",
+    "target": "alibaba",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2026-04-22",
+    "effectiveOn": "2026-01-09",
+    "summary": "向阿里集团业务提供模型 API 服务。",
+    "evidenceArticleIds": [
+      "minimax-alibaba-service-agreements"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "依年报所披露协议，期限至 2028-12-31；未将交易上限当成实际采购额。后续额度修订不在本条记录中。"
+  },
+  {
+    "id": "alibaba-minimax-services",
+    "source": "alibaba",
+    "target": "minimax",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2026-04-22",
+    "effectiveOn": "2026-01-09",
+    "summary": "阿里云向 MiniMax 提供云产品与服务。",
+    "evidenceArticleIds": [
+      "minimax-alibaba-service-agreements"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "依年报所披露协议，期限至 2028-12-31；未将交易上限当成实际采购额。后续额度修订不在本条记录中。"
+  },
+  {
+    "id": "baidu-xiaomi-ai-partnership",
+    "source": "baidu",
+    "target": "xiaomi",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2017-11-28",
+    "effectiveOn": null,
+    "summary": "宣布在人工智能领域开展战略合作。",
+    "evidenceArticleIds": [
+      "xiaomi-baidu-ai-cooperation"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "2017 年历史合作宣布，未核实当前有效期或具体实施范围；不映射为小米采购百度模型。"
+  },
+  {
+    "id": "bytedance-mthreads-investment",
+    "source": "bytedance",
+    "target": "mthreads",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2021-02-24",
+    "effectiveOn": null,
+    "summary": "字节跳动通过全资子公司量子跃动投资摩尔线程。",
+    "evidenceArticleIds": [
+      "bytedance-mthreads-investment"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史工商变更报道，原始登记文件未取得；当前持股比例与退出情况未核实。"
+  },
+  {
+    "id": "tencent-kuaishou-investment",
+    "source": "tencent",
+    "target": "kuaishou",
+    "type": "investment",
+    "status": "ongoing",
+    "confirmedOn": "2026-04-24",
+    "effectiveOn": null,
+    "summary": "快手年报将腾讯列为主要股东。",
+    "evidenceArticleIds": [
+      "kuaishou-tencent-2025-annual"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "状态依据 2025 年报披露，未核实截止日的最新权益变动，不推断控股或持股比例。"
+  },
+  {
+    "id": "tencent-kuaishou-cloud",
+    "source": "tencent",
+    "target": "kuaishou",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2026-04-24",
+    "effectiveOn": "2024-01-01",
+    "summary": "腾讯集团向快手提供云服务和技术服务。",
+    "evidenceArticleIds": [
+      "kuaishou-tencent-2025-annual"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "依据年报披露的框架协议，期限至 2026-12-31；集团内业务映射到公司节点，不把交易上限当作实际采购额。"
+  },
+  {
+    "id": "deepseek-round-tencent-deepseek-investment",
+    "source": "tencent",
+    "target": "deepseek",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-07-17",
+    "effectiveOn": null,
+    "summary": "腾讯通过基金参与 DeepSeek 首轮融资。",
+    "evidenceArticleIds": [
+      "coverage-deepseek-round"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "媒体依据上市公司披露及基金结构报道的间接投资；不表示腾讯直接持有 DeepSeek 股份，具体腾讯投资主体与当前比例未收录。"
+  },
+  {
+    "id": "smic-joint-rd-smic-huawei-partnership",
+    "source": "smic",
+    "target": "huawei",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2015-06-23",
+    "effectiveOn": "2015-06-23",
+    "summary": "中芯国际与华为通过联合研发公司合作开发半导体工艺。",
+    "evidenceArticleIds": [
+      "coverage-smic-joint-rd"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "合作对象为另一个合资研发主体，不表示华为持有中芯国际股份，也不作为代工供应证据；仅确认2015年宣布的事项。"
+  },
+  {
+    "id": "cambricon-prospectus-inspur-inspur-cambricon-supply",
+    "source": "inspur",
+    "target": "cambricon",
+    "type": "supply",
+    "status": "completed",
+    "confirmedOn": "2020-06-22",
+    "effectiveOn": "2019-10-15",
+    "summary": "浪潮信息向寒武纪提供服务器，招股书所列订单已履行。",
+    "evidenceArticleIds": [
+      "coverage-cambricon-prospectus-inspur"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "招股书印刷页377的委外加工订单，2019-10-15签署且披露已履行；不推断2026年持续供货。"
+  },
+  {
+    "id": "historical-trade-sugon-cambricon",
+    "source": "sugon",
+    "target": "cambricon",
+    "type": "supply",
+    "status": "completed",
+    "confirmedOn": "2020-06-22",
+    "effectiveOn": null,
+    "summary": "中科曙光向寒武纪销售服务器。",
+    "evidenceArticleIds": [
+      "coverage-cambricon-prospectus-inspur"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "招股书印刷页231—232披露2019年市场化交易；具体交易日期及当前持续供货情况未披露。"
+  },
+  {
+    "id": "historical-trade-cambricon-sugon",
+    "source": "cambricon",
+    "target": "sugon",
+    "type": "supply",
+    "status": "completed",
+    "confirmedOn": "2020-06-22",
+    "effectiveOn": null,
+    "summary": "寒武纪向中科曙光销售研发试制加速卡。",
+    "evidenceArticleIds": [
+      "coverage-cambricon-prospectus-inspur"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "招股书印刷页231—232披露2019年市场化交易；具体交易日期及当前持续供货情况未披露。"
+  },
+  {
+    "id": "ucloud-metax-ucloud-metax-partnership",
+    "source": "ucloud",
+    "target": "metax",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2022-01-19",
+    "effectiveOn": "2022-01-18",
+    "summary": "优刻得与沐曦宣布GPU云服务与智慧城市战略合作。",
+    "evidenceArticleIds": [
+      "coverage-ucloud-metax"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅记录来源所述事项及当时状态；未披露当前持股比例、采购金额或后续履行情况。"
+  },
+  {
+    "id": "ucloud-biren-ucloud-biren-partnership",
+    "source": "ucloud",
+    "target": "biren",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2021-01-29",
+    "effectiveOn": "2021-01-28",
+    "summary": "优刻得与壁仞科技宣布智慧城市及算力生态战略合作。",
+    "evidenceArticleIds": [
+      "coverage-ucloud-biren"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅记录来源所述事项及当时状态；未披露当前持股比例、采购金额或后续履行情况。"
+  },
+  {
+    "id": "baidu-modelbest-baidu-modelbest-partnership",
+    "source": "baidu",
+    "target": "modelbest",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2024-11-04",
+    "effectiveOn": "2024-10-30",
+    "summary": "百度智能云与面壁智能签署端云协同战略合作。",
+    "evidenceArticleIds": [
+      "coverage-baidu-modelbest"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅记录来源所述事项及当时状态；未披露当前持股比例、采购金额或后续履行情况。"
+  },
+  {
+    "id": "tencent-stepfun-tencent-stepfun-partnership",
+    "source": "tencent",
+    "target": "stepfun",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2026-04-23",
+    "effectiveOn": "2026-04-23",
+    "summary": "腾讯云与阶跃星辰宣布智能座舱及多模态领域战略合作。",
+    "evidenceArticleIds": [
+      "coverage-tencent-stepfun"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅记录来源所述事项及当时状态；未披露当前持股比例、采购金额或后续履行情况。"
+  },
+  {
+    "id": "tencent-baichuan-tencent-baichuan-partnership",
+    "source": "tencent",
+    "target": "baichuan",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2024-05-17",
+    "effectiveOn": "2024-05-17",
+    "summary": "腾讯云与百川智能宣布大模型及云服务战略合作。",
+    "evidenceArticleIds": [
+      "coverage-tencent-baichuan"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "企业资讯来源确认合作宣布；不把未来云服务支持承诺记为已经履行的采购合同。"
+  },
+  {
+    "id": "alibaba-sensetime-lab-alibaba-sensetime-partnership",
+    "source": "alibaba",
+    "target": "sensetime",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2018-05-20",
+    "effectiveOn": null,
+    "summary": "阿里巴巴与商汤合作成立香港人工智能实验室。",
+    "evidenceArticleIds": [
+      "coverage-alibaba-sensetime-lab"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "页面日期为2018-05-20，正文称5月21日宣布，存在一天差异，故具体事件日期留空。联合实验室不代表两家公司之间的持股关系。"
+  },
+  {
+    "id": "alibaba-01ai-alibaba-01ai-investment",
+    "source": "alibaba",
+    "target": "01ai",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-08-07",
+    "effectiveOn": null,
+    "summary": "阿里云于2023年11月投资零一万物。",
+    "evidenceArticleIds": [
+      "coverage-alibaba-01ai"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资回顾；2024-08-07为报道日期而非投资完成日期，具体日及当前持股比例未知；不表示阿里参与报道所述新一轮融资。"
+  },
+  {
+    "id": "transwarp-shareholders-tencent-transwarp-investment",
+    "source": "tencent",
+    "target": "transwarp",
+    "type": "investment",
+    "status": "ongoing",
+    "confirmedOn": "2026-09-21",
+    "effectiveOn": null,
+    "summary": "腾讯通过林芝利创持有星环科技权益。",
+    "evidenceArticleIds": [
+      "coverage-transwarp-shareholders"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "腾讯权益以报道披露时点为准；浪潮记录基石认购安排，不推断锁定期后的持仓。具体持股比例、金额与投资日未收录。"
+  },
+  {
+    "id": "transwarp-shareholders-inspur-transwarp-investment",
+    "source": "inspur",
+    "target": "transwarp",
+    "type": "investment",
+    "status": "announced",
+    "confirmedOn": "2026-09-21",
+    "effectiveOn": null,
+    "summary": "浪潮信息旗下Electronic Channel参与星环科技港股发行基石认购。",
+    "evidenceArticleIds": [
+      "coverage-transwarp-shareholders"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "腾讯权益以报道披露时点为准；浪潮记录基石认购安排，不推断锁定期后的持仓。具体持股比例、金额与投资日未收录。"
+  },
+  {
+    "id": "mthreads-lenovo-server-mthreads-lenovo-supply",
+    "source": "mthreads",
+    "target": "lenovo",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2023-02-10",
+    "effectiveOn": "2023-02-08",
+    "summary": "联想已发布的联合开发服务器产品搭载摩尔线程MTT S3000 GPU。",
+    "evidenceArticleIds": [
+      "coverage-mthreads-lenovo-server"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "仅确认发布整机中GPU提供与集成事实，不推断独家供货、采购金额或2026年仍持续供应。"
+  },
+  {
+    "id": "thead-alibaba-compute-thead-alibaba-supply",
+    "source": "thead",
+    "target": "alibaba",
+    "type": "supply",
+    "status": "ongoing",
+    "confirmedOn": "2023-08-24",
+    "effectiveOn": null,
+    "summary": "阿里云倚天实例采用平头哥自研倚天710处理器。",
+    "evidenceArticleIds": [
+      "coverage-thead-alibaba-compute"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "集团内硬件使用关系，以课程披露时点为准；不表示独立第三方销售合同或当前供货规模。"
   }
 ]

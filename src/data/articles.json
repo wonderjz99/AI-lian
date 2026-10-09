@@ -161,7 +161,7 @@
   },
   {
     "id": "zhipu-financing-disclosure",
-    "title": "智谱披露累计融资，参与方包括阿里与腾讯",
+    "title": "智谱披露累计融资，参与方包括阿里、腾讯与小米",
     "publisher": "智谱",
     "url": "https://www.zhipuai.cn/zh/news/73",
     "publishedOn": "2024-04-28",
@@ -268,5 +268,405 @@
     "accessedOn": "2026-10-09",
     "evidenceNote": "官网独立新闻标题确认 MTT AICUBE 搭载“小麦”智能体及发表日；未展开的技术规格不收录。",
     "historical": false
+  },
+  {
+    "id": "xiaomi-2026q2",
+    "title": "小米中期业绩披露 MiMo 与全屋智能进展",
+    "publisher": "小米集团",
+    "url": "https://ir.mi.com/static-files/62705e94-0ce0-4d98-9e51-689914b173cc",
+    "publishedOn": "2026-08-18",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方公告第 3 页为 AI 业务回顾，末页签署日期为 2026-08-18；此卡是业绩披露，不把多个产品的发布日期合并为同一天。",
+    "historical": false
+  },
+  {
+    "id": "infiniai-2024-financing",
+    "title": "无问芯穹 A 轮融资，联想创投与小米参投",
+    "publisher": "联想创投",
+    "url": "https://capital.lenovo.com/news/detail/id/1022/s/1.html",
+    "publishedOn": "2024-09-02",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确列出联想创投、小米和顺为等分别参投，未将顺为或君联资本等同于小米或联想集团。",
+    "historical": true
+  },
+  {
+    "id": "infiniai-minimax-strategic",
+    "title": "无问芯穹与 MiniMax 签署战略合作协议",
+    "publisher": "无问芯穹",
+    "url": "https://www.infinigence-ai.com/news-updates/223.html",
+    "publishedOn": "2026-08-05",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确正式签署战略合作协议及合作方向；具体签署日写为“近日”，不以新闻发布日期代替。",
+    "historical": false
+  },
+  {
+    "id": "huawei-chinatelecom-network-ai",
+    "title": "中国电信与华为联合网络 AI 项目获 TM Forum 奖项",
+    "publisher": "华为",
+    "url": "https://www.huawei.com/cn/news/2026/6/excellence-award3",
+    "publishedOn": "2026-06-26",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确联合推出网优任务模型、已有部署及深化战略合作。没有披露投资、交易金额或独家供货。",
+    "historical": false
+  },
+  {
+    "id": "huawei-yonyou-yonwork",
+    "title": "用友介绍 YonWork 与华为专属云的协同方案",
+    "publisher": "用友网络",
+    "url": "https://www.yonyou.com/subject/iuap/news/7100",
+    "publishedOn": "2026-09-29",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "正文明确华为云提供专属云基础设施，与用友 BIP / YonWork 串联。记录方案中的供应角色，不虚构用友自用采购合同。",
+    "historical": false
+  },
+  {
+    "id": "datagrand-huawei-inspire",
+    "title": "达观数据介绍基于昇腾云的金融智能体方案",
+    "publisher": "达观数据",
+    "url": "https://www.datagrand.com/blog/主题演讲-达观数据亮相华为云inspire创想者大会，共探.html",
+    "publishedOn": "2026-06-08",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确昇腾云是底层技术底座。记录具体云支撑角色，不仅依据共同参会生成关系。",
+    "historical": false
+  },
+  {
+    "id": "baichuan-a1-financing",
+    "title": "百川 A1 轮融资，阿里、腾讯与小米参投",
+    "publisher": "每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2023-10-17/3056360.html",
+    "publishedOn": "2023-10-17",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "记者报道明确称从百川获悉融资完成及三家参投；不是从共同投资名单推导投资方之间的连线。",
+    "historical": true
+  },
+  {
+    "id": "baichuan-m4-paper",
+    "title": "百川 M4 医疗智能体系统技术论文公开",
+    "publisher": "百川研究团队 / arXiv",
+    "url": "https://arxiv.org/abs/2606.08982",
+    "publishedOn": "2026-06-08",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "arXiv 初次提交日期为 2026-06-08，6 月 9 日修订；按首次公开日期排序，不把论文日期当作产品商用发布日期。",
+    "historical": false
+  },
+  {
+    "id": "modelbest-minicpm-v46",
+    "title": "面壁开源端侧多模态模型 MiniCPM-V 4.6",
+    "publisher": "OpenBMB / 面壁智能",
+    "url": "https://github.com/OpenBMB/MiniCPM-V/blob/main/README_zh.md",
+    "publishedOn": "2026-05-11",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "项目 README 的 2026.05.11 日期条目为发布依据；性能属于发布方自述，未复制评测排名。",
+    "historical": false
+  },
+  {
+    "id": "modelbest-telecom-financing",
+    "title": "面壁智能宣布中国电信领投新一轮融资",
+    "publisher": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/shenji/2026-02-28/doc-inhpirys0171023.shtml",
+    "publishedOn": "2026-02-28",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "正文有融资公告及中国电信投资公司引语；未核实投资公司与上市主体的控制链，不新增资本关系。",
+    "historical": true
+  },
+  {
+    "id": "lenovo-fourthparadigm-financing",
+    "title": "联想创投参与第四范式 C+ 轮融资",
+    "publisher": "联想创投",
+    "url": "https://capital.lenovo.com/news/detail/id/373/s/1.html",
+    "publishedOn": "2020-04-02",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确新战略股东及融资完成；未提供当前比例。",
+    "historical": true
+  },
+  {
+    "id": "lenovo-fourthparadigm-strategic",
+    "title": "联想与第四范式达成平板 AI 战略合作",
+    "publisher": "联想创投",
+    "url": "https://capital.lenovo.com/news/detail/id/382/s/2.html",
+    "publishedOn": "2020-06-09",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文明确战略合作及智能软件供应角色；不是由投资关系推导采购。",
+    "historical": true
+  },
+  {
+    "id": "inspur-hc2000",
+    "title": "浪潮信息发布元脑 HC2000 多元算力机组",
+    "publisher": "浪潮信息",
+    "url": "https://www.ieisystem.com/about/news/23426.html",
+    "publishedOn": "2026-09-22",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方新闻页面给出 2026-09-22 日期及产品说明；未按未点名芯片推测供应商。",
+    "historical": false
+  },
+  {
+    "id": "bytedance-seedance25",
+    "title": "字节 Seed 发布视频创作模型 Seedance 2.5",
+    "publisher": "字节跳动 Seed",
+    "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+    "publishedOn": "2026-07-31",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方博客明确日期及发布，未把模型产品独立建成公司。",
+    "historical": false
+  },
+  {
+    "id": "baidu-2026q2",
+    "title": "百度第二季度业绩回顾 AI 云与应用进展",
+    "publisher": "百度",
+    "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results",
+    "publishedOn": "2026-08-18",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方投资者关系新闻稿，发布日期 2026-08-18。",
+    "historical": false
+  },
+  {
+    "id": "mobvoi-2026-interim",
+    "title": "出门问问中期业绩介绍 Agentic 软硬件业务调整",
+    "publisher": "证券之星（来源：财经报道网）",
+    "url": "https://finance.stockstar.com/IG2026082800042173.shtml",
+    "publishedOn": "2026-08-28",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "页面有日期和业务结构调整内容；仅采用业务描述，报道中的经调整亏损与其他来源存在口径差异，未收录其财务数字。",
+    "historical": false
+  },
+  {
+    "id": "sugon-cec-strategic",
+    "title": "中科曙光与中国电子签署战略合作协议",
+    "publisher": "中科曙光",
+    "url": "https://www.sugon.com/cut?id=2886&nav_id=48",
+    "publishedOn": "2026-05-27",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方正文有发布日期、签约事实，并明确海光信息是中科曙光参股企业。图外公司不强行映射为地图内其他公司。",
+    "historical": false
+  },
+  {
+    "id": "smic-2026q2",
+    "title": "中芯国际公布第二季度经营业绩",
+    "publisher": "中芯国际（东方财富公告镜像）",
+    "url": "https://data.eastmoney.com/notices/detail/00981/AN202608131827940143.html",
+    "publishedOn": "2026-08-13",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "公告镜像的搜索索引可读到发行人、2026-08-13 日期及业绩正文；页面直读受限，未将匿名客户归到任何地图公司。",
+    "historical": false
+  },
+  {
+    "id": "transwarp-hygon-strategic",
+    "title": "星环与海光签约并共建联合创新中心",
+    "publisher": "新浪财经（转载衡水日报）",
+    "url": "https://finance.sina.com.cn/jjxw/2025-11-18/doc-infxvaxe4097189.shtml",
+    "publishedOn": "2025-11-18",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "完整报道明确签约和中心揭牌；星环官网同题 news/2471 索引及 2025-11-19 投资者关系活动记录交叉支持，官网详情直读受限。",
+    "historical": true
+  },
+  {
+    "id": "transwarp-vldb2026",
+    "title": "星环认知数据库亮相 VLDB 2026",
+    "publisher": "星环科技",
+    "url": "https://www.transwarp.cn/news",
+    "publishedOn": "2026-09-02",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方新闻索引显示 2026-09-02 发布日期，会议时间为 8 月 31 日至 9 月 4 日；没有用共同参展推断供应关系。",
+    "historical": false
+  },
+  {
+    "id": "kuaishou-2026q2",
+    "title": "快手中期业绩回顾可灵模型与商业化进展",
+    "publisher": "快手科技",
+    "url": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026",
+    "publishedOn": "2026-08-19",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "官方投资者关系新闻稿 AI business 章节；没有把产品发布回顾日期当作各产品首次上线日。",
+    "historical": false
+  },
+  {
+    "id": "huawei-modelbest-investment",
+    "title": "面壁融资引入华为哈勃投资",
+    "publisher": "IT之家",
+    "url": "https://www.ithome.com/0/761/493.htm",
+    "publishedOn": "2024-04-12",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "报道引用 4 月 11 日融资公告，并说明哈勃科技创业投资由华为投资控股全资持有；当前比例未披露。",
+    "historical": true
+  },
+  {
+    "id": "ali-01ai-lab",
+    "title": "阿里云与零一万物宣布产业大模型联合实验室",
+    "publisher": "IT之家",
+    "url": "https://www.ithome.com/0/821/865.htm",
+    "publishedOn": "2025-01-02",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "报道明确当日战略合作公告；2025-09-01 中国金融信息网报道再提及已成立的联合实验室，未采用收购传闻。",
+    "historical": true
+  },
+  {
+    "id": "minimax-alibaba-service-agreements",
+    "title": "MiniMax 年报披露与阿里云的双向服务协议",
+    "publisher": "MiniMax / 港交所",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf",
+    "publishedOn": "2026-04-22",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "年报第 29–30 页，2025-12-29 签订两份协议，自 2026-01-09 上市起至 2028-12-31。未记录年度交易上限或将其当作实际收入。",
+    "historical": false
+  },
+  {
+    "id": "xiaomi-baidu-ai-cooperation",
+    "title": "小米与百度宣布 AI 战略合作",
+    "publisher": "中央社",
+    "url": "https://www.cna.com.tw/news/ait/201711280268.aspx",
+    "publishedOn": "2017-11-28",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "报道引述台湾小米当日新闻稿，明确战略合作表述；只记录历史宣布，不确认现在仍在履行。",
+    "historical": true
+  },
+  {
+    "id": "bytedance-mthreads-investment",
+    "title": "字节跳动旗下量子跃动成为摩尔线程投资人",
+    "publisher": "新浪财经（转载界面新闻）",
+    "url": "https://finance.sina.com.cn/chanjing/gsnews/2021-02-24/doc-ikftpnny9454546.shtml",
+    "publishedOn": "2021-02-24",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "正文明确投资人与字节跳动的全资关系；“近日”工商变更的具体日期未知，不以注册资本变动推算持股比例。",
+    "historical": true
+  },
+  {
+    "id": "kuaishou-tencent-2025-annual",
+    "title": "快手年报披露腾讯股东身份与云服务协议",
+    "publisher": "快手科技 / 港交所",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401899.pdf",
+    "publishedOn": "2026-04-24",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "年报印刷页 78 和 80 明确主要股东身份、云服务方向及 2024-01-01 至 2026-12-31 的协议期限；不记录未核对的持股比例或交易金额。",
+    "historical": false
+  },
+  {
+    "id": "coverage-deepseek-round",
+    "title": "DeepSeek首轮融资后估值升至3508亿元，腾讯等参投",
+    "publisher": "财新",
+    "url": "https://companies.caixin.com/m/2026-07-17/102465132.html",
+    "publishedOn": "2026-07-17",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "媒体依据上市公司披露及基金结构报道的间接投资；不表示腾讯直接持有 DeepSeek 股份，具体腾讯投资主体与当前比例未收录。",
+    "historical": false
+  },
+  {
+    "id": "coverage-smic-joint-rd",
+    "title": "中芯国际、华为、imec及高通宣布联合研发公司",
+    "publisher": "中芯国际（美通社发布）",
+    "url": "https://www.prnewswire.com/news-releases/smic-huawei-imec-and-qualcomm-in-joint-investment-on-smics-new-research-and-development-company-300103277.html",
+    "publishedOn": "2015-06-23",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "合作对象为另一个合资研发主体，不表示华为持有中芯国际股份，也不作为代工供应证据；仅确认2015年宣布的事项。",
+    "historical": true
+  },
+  {
+    "id": "coverage-cambricon-prospectus-inspur",
+    "title": "寒武纪招股书披露向浪潮信息采购服务器",
+    "publisher": "寒武纪 / 上海证券交易所",
+    "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202006/000354_20200622_AWSW.pdf",
+    "publishedOn": "2020-06-22",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "招股书印刷页377的委外加工订单，2019-10-15签署且披露已履行；不推断2026年持续供货。",
+    "historical": true
+  },
+  {
+    "id": "coverage-ucloud-metax",
+    "title": "优刻得与沐曦签署战略合作协议",
+    "publisher": "优刻得",
+    "url": "https://www.ucloud.cn/site/about/news/recent/20220119/5991.html",
+    "publishedOn": "2022-01-19",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "双方签署战略合作协议，围绕GPU云服务、智慧城市等开展合作。",
+    "historical": true
+  },
+  {
+    "id": "coverage-ucloud-biren",
+    "title": "优刻得与壁仞科技签署战略合作协议",
+    "publisher": "科创板日报",
+    "url": "https://www.cls.cn/detail/675210",
+    "publishedOn": "2021-01-29",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "双方于1月28日签署战略合作协议，涉及智慧城市、数字政府与算力生态。",
+    "historical": true
+  },
+  {
+    "id": "coverage-baidu-modelbest",
+    "title": "百度智能云与面壁智能达成战略合作",
+    "publisher": "百度智能云",
+    "url": "https://cloud.baidu.com/news/news_43a4b541-67c9-4feb-a9d0-2eee0585ee76",
+    "publishedOn": "2024-11-04",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "双方10月30日签署战略合作，围绕端云协同与智能终端应用展开合作。",
+    "historical": true
+  },
+  {
+    "id": "coverage-tencent-stepfun",
+    "title": "腾讯云与阶跃星辰达成战略合作",
+    "publisher": "第一财经（东方财富转载）",
+    "url": "https://finance.eastmoney.com/a/202604233716437855.html",
+    "publishedOn": "2026-04-23",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "双方宣布围绕语音、端到端多模态及智能座舱主动助手开展战略合作。",
+    "historical": false
+  },
+  {
+    "id": "coverage-tencent-baichuan",
+    "title": "腾讯云与百川智能宣布战略合作",
+    "publisher": "新浪新闻（企业资讯）",
+    "url": "https://news.sina.cn/sx/2024-05-17/detail-inavpqec8825749.d.html?vt=4",
+    "publishedOn": "2024-05-17",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "企业资讯来源确认合作宣布；不把未来云服务支持承诺记为已经履行的采购合同。",
+    "historical": true
+  },
+  {
+    "id": "coverage-alibaba-sensetime-lab",
+    "title": "商汤与阿里巴巴合作成立香港人工智能实验室",
+    "publisher": "商汤科技",
+    "url": "https://www.sensetime.com/cn/technology-new-detail/829?categoryId=53",
+    "publishedOn": "2018-05-20",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "页面日期为2018-05-20，正文称5月21日宣布，存在一天差异，故具体事件日期留空。联合实验室不代表两家公司之间的持股关系。",
+    "historical": true
+  },
+  {
+    "id": "coverage-alibaba-01ai",
+    "title": "报道回顾阿里云对零一万物的投资",
+    "publisher": "每日经济新闻",
+    "url": "https://www.nbd.com.cn/articles/2024-08-07/3495871.html",
+    "publishedOn": "2024-08-07",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "历史投资回顾；2024-08-07为报道日期而非投资完成日期，具体日及当前持股比例未知；不表示阿里参与报道所述新一轮融资。",
+    "historical": true
+  },
+  {
+    "id": "coverage-transwarp-shareholders",
+    "title": "星环科技港股上市，腾讯为股东、浪潮信息旗下实体参与基石认购",
+    "publisher": "科创板日报",
+    "url": "https://www.cls.cn/detail/2489396",
+    "publishedOn": "2026-09-21",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "腾讯权益以报道披露时点为准；浪潮记录基石认购安排，不推断锁定期后的持仓。具体持股比例、金额与投资日未收录。",
+    "historical": false
+  },
+  {
+    "id": "coverage-mthreads-lenovo-server",
+    "title": "摩尔线程与联想联合开发GPU训推一体机",
+    "publisher": "新浪新闻（企业资讯）",
+    "url": "https://news.sina.com.cn/sx/2023-02-10/detail-imyfezcq6188279.shtml",
+    "publishedOn": "2023-02-10",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "仅确认发布整机中GPU提供与集成事实，不推断独家供货、采购金额或2026年仍持续供应。",
+    "historical": true
+  },
+  {
+    "id": "coverage-thead-alibaba-compute",
+    "title": "阿里云弹性计算课程介绍倚天实例",
+    "publisher": "阿里云开发者社区（弹性计算团队课程整理）",
+    "url": "https://developer.aliyun.com/article/1314984",
+    "publishedOn": "2023-08-24",
+    "accessedOn": "2026-10-09",
+    "evidenceNote": "集团内硬件使用关系，以课程披露时点为准；不表示独立第三方销售合同或当前供货规模。",
+    "historical": true
   }
 ]

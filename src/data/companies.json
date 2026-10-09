@@ -1397,5 +1397,50 @@
     ],
     "marketCap": null,
     "valuation": null
+  },
+  {
+    "id": "xiaomi",
+    "name": "小米",
+    "englishName": "Xiaomi",
+    "aliases": [
+      "小米集团",
+      "Xiaomi Corporation",
+      "MiMo",
+      "小爱同学",
+      "超级小爱",
+      "米家"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "芯片与硬件",
+      "基础模型"
+    ],
+    "description": "以手机、智能硬件及人车家生态提供终端 AI 应用，同时研发 MiMo 基础模型。",
+    "products": [
+      "超级小爱",
+      "MiMo",
+      "Xiaomi Miloco",
+      "米家"
+    ],
+    "region": "mainland",
+    "identityNote": "小米集团（Xiaomi Corporation），主要经营与研发在中国大陆；港交所 01810，与人民币柜台 81810 对应同一公司。顺为资本、雷军个人及生态链企业不自动并入小米。",
+    "classificationReason": "以面向用户的智能终端与人车家 AI 应用为主要角色；硬件和基础模型能力以标签保留，不复制节点。",
+    "sources": [
+      {
+        "title": "小米 2026 年第二季度及中期业绩公告",
+        "publisher": "小米集团",
+        "url": "https://ir.mi.com/static-files/62705e94-0ce0-4d98-9e51-689914b173cc",
+        "accessedOn": "2026-10-09"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "01810"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
   }
 ]

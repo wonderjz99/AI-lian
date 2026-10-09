@@ -194,13 +194,14 @@
   },
   {
     "id": "event-zhipu-financing-disclosure",
-    "title": "智谱披露累计融资，参与方包括阿里与腾讯",
-    "summary": "智谱官方披露累计获得超 25 亿元人民币融资，参与方包括阿里与腾讯。该金额是累计融资额，不是估值，也不证明两家投资方互相投资。",
+    "title": "智谱披露累计融资，参与方包括阿里、腾讯与小米",
+    "summary": "智谱官网列出累计融资的参与方，包括阿里、腾讯与小米等。这里记录历史投资经历，不将同轮投资方之间画成关系，也不据此判断当前持股比例。",
     "eventDate": null,
     "companyIds": [
       "zhipu",
       "alibaba",
-      "tencent"
+      "tencent",
+      "xiaomi"
     ],
     "articleIds": [
       "zhipu-financing-disclosure"
@@ -335,6 +336,545 @@
     ],
     "articleIds": [
       "mthreads-aicube-release"
+    ]
+  },
+  {
+    "id": "event-xiaomi-2026q2",
+    "title": "小米中期业绩披露 MiMo 与全屋智能进展",
+    "summary": "小米在中期业绩公告中回顾 MiMo 基础模型、Miloco 2.0 全屋智能方案及具身智能研发，并介绍超级小爱与 MiMo 的整合。",
+    "eventDate": "2026-08-18",
+    "companyIds": [
+      "xiaomi"
+    ],
+    "articleIds": [
+      "xiaomi-2026q2"
+    ]
+  },
+  {
+    "id": "event-infiniai-2024-financing",
+    "title": "无问芯穹 A 轮融资，联想创投与小米参投",
+    "summary": "联想创投披露无问芯穹完成近 5 亿元 A 轮融资，参与方包括联想创投和小米；这是历史融资依据，不能据此认定当前持股比例。",
+    "eventDate": null,
+    "companyIds": [
+      "infiniai",
+      "lenovo",
+      "xiaomi"
+    ],
+    "articleIds": [
+      "infiniai-2024-financing"
+    ]
+  },
+  {
+    "id": "event-infiniai-model-customers",
+    "title": "无问芯穹披露 Kimi 与智谱使用异构云服务",
+    "summary": "联想创投的无问芯穹介绍明确称，Kimi 与智谱等客户已在其异构云平台使用算力和大模型开发工具链。卡片记录服务使用情况，不将客户之间推定为合作。",
+    "eventDate": null,
+    "companyIds": [
+      "infiniai",
+      "moonshot",
+      "zhipu"
+    ],
+    "articleIds": [
+      "infiniai-2024-financing"
+    ]
+  },
+  {
+    "id": "event-infiniai-minimax-strategic",
+    "title": "无问芯穹与 MiniMax 签署战略合作协议",
+    "summary": "双方宣布签署战略合作协议，围绕推理效能优化、Token 服务、AI 基础设施及行业场景展开合作；公告中的未来计划不视为已完成成果。",
+    "eventDate": null,
+    "companyIds": [
+      "infiniai",
+      "minimax"
+    ],
+    "articleIds": [
+      "infiniai-minimax-strategic"
+    ]
+  },
+  {
+    "id": "event-huawei-chinatelecom-network-ai",
+    "title": "中国电信与华为联合网络 AI 项目获 TM Forum 奖项",
+    "summary": "华为公告介绍与中国电信联合推出的网优任务大模型及城市部署，并称双方将持续深化战略合作；联合申报项目获得 TM Forum 自智网络卓越奖。",
+    "eventDate": null,
+    "companyIds": [
+      "huawei",
+      "chinatelecom"
+    ],
+    "articleIds": [
+      "huawei-chinatelecom-network-ai"
+    ]
+  },
+  {
+    "id": "event-huawei-yonyou-yonwork",
+    "title": "用友介绍 YonWork 与华为专属云的协同方案",
+    "summary": "用友介绍在华为全联接大会展示的 YonWork 方案：华为云提供专属云基础设施，用友 BIP 承接企业数据与业务流程，YonWork 作为 AI 工作入口。",
+    "eventDate": null,
+    "companyIds": [
+      "huawei",
+      "yonyou"
+    ],
+    "articleIds": [
+      "huawei-yonyou-yonwork"
+    ]
+  },
+  {
+    "id": "event-datagrand-huawei-inspire",
+    "title": "达观数据介绍基于昇腾云的金融智能体方案",
+    "summary": "达观数据在华为云创想者大会分享金融文档智能体应用，并说明其平台以华为昇腾云作为底层技术底座。",
+    "eventDate": "2026-06-05",
+    "companyIds": [
+      "datagrand",
+      "huawei"
+    ],
+    "articleIds": [
+      "datagrand-huawei-inspire"
+    ]
+  },
+  {
+    "id": "event-baichuan-a1-financing",
+    "title": "百川 A1 轮融资，阿里、腾讯与小米参投",
+    "summary": "每经记者获悉百川智能已完成 3 亿美元 A1 轮战略融资，阿里、腾讯、小米等参与。记录历史融资，不据此计算当前股权比例。",
+    "eventDate": null,
+    "companyIds": [
+      "baichuan",
+      "alibaba",
+      "tencent",
+      "xiaomi"
+    ],
+    "articleIds": [
+      "baichuan-a1-financing"
+    ]
+  },
+  {
+    "id": "event-baichuan-m4-paper",
+    "title": "百川 M4 医疗智能体系统技术论文公开",
+    "summary": "研究团队公开 Baichuan-M4 技术论文，介绍面向连续医疗服务的临床智能体系统。论文披露不等于监管批准或已经验证的临床疗效。",
+    "eventDate": "2026-06-08",
+    "companyIds": [
+      "baichuan"
+    ],
+    "articleIds": [
+      "baichuan-m4-paper"
+    ]
+  },
+  {
+    "id": "event-modelbest-minicpm-v46",
+    "title": "面壁开源端侧多模态模型 MiniCPM-V 4.6",
+    "summary": "官方代码仓库更新记录宣布开源 MiniCPM-V 4.6，强调轻量规模与视觉 token 压缩，面向端侧多模态部署。",
+    "eventDate": "2026-05-11",
+    "companyIds": [
+      "modelbest"
+    ],
+    "articleIds": [
+      "modelbest-minicpm-v46"
+    ]
+  },
+  {
+    "id": "event-modelbest-telecom-financing",
+    "title": "面壁智能宣布中国电信领投新一轮融资",
+    "summary": "新浪科技报道面壁智能完成数亿元新融资，由中国电信领投，并引述中国电信投资公司的表述。投资实体归属上市公司还是集团母公司尚未确认，因此暂不画到中国电信上市节点。",
+    "eventDate": null,
+    "companyIds": [
+      "modelbest"
+    ],
+    "articleIds": [
+      "modelbest-telecom-financing"
+    ]
+  },
+  {
+    "id": "event-lenovo-fourthparadigm-financing",
+    "title": "联想创投参与第四范式 C+ 轮融资",
+    "summary": "联想创投公告称第四范式完成 C+ 轮融资，联想创投成为新战略股东。记录历史投资经历，不把当时融资估值作为现在的上市市值。",
+    "eventDate": null,
+    "companyIds": [
+      "lenovo",
+      "fourthparadigm"
+    ],
+    "articleIds": [
+      "lenovo-fourthparadigm-financing"
+    ]
+  },
+  {
+    "id": "event-lenovo-fourthparadigm-strategic",
+    "title": "联想与第四范式达成平板 AI 战略合作",
+    "summary": "联想创投披露联想与第四范式达成战略合作，第四范式将为联想安卓平板提供智能软件与 AI 技术。该记录为历史公告，未确认后续续约。",
+    "eventDate": null,
+    "companyIds": [
+      "lenovo",
+      "fourthparadigm"
+    ],
+    "articleIds": [
+      "lenovo-fourthparadigm-strategic"
+    ]
+  },
+  {
+    "id": "event-inspur-hc2000",
+    "title": "浪潮信息发布元脑 HC2000 多元算力机组",
+    "summary": "浪潮信息在 AICC2026 发布元脑 HC2000，结合液冷整机柜与推理软件栈组织多元算力，面向规模化推理服务。",
+    "eventDate": null,
+    "companyIds": [
+      "inspur"
+    ],
+    "articleIds": [
+      "inspur-hc2000"
+    ]
+  },
+  {
+    "id": "event-bytedance-seedance25",
+    "title": "字节 Seed 发布视频创作模型 Seedance 2.5",
+    "summary": "Seed 团队发布 Seedance 2.5，介绍长叙事、多模态参考和编辑能力；属于字节跳动的模型产品动态。",
+    "eventDate": "2026-07-31",
+    "companyIds": [
+      "bytedance"
+    ],
+    "articleIds": [
+      "bytedance-seedance25"
+    ]
+  },
+  {
+    "id": "event-baidu-2026q2",
+    "title": "百度第二季度业绩回顾 AI 云与应用进展",
+    "summary": "百度发布第二季度业绩，介绍 AI 云基础设施、AI 应用和 Apollo Go 的进展；未从业务介绍推断客户或供应商。",
+    "eventDate": "2026-08-18",
+    "companyIds": [
+      "baidu"
+    ],
+    "articleIds": [
+      "baidu-2026q2"
+    ]
+  },
+  {
+    "id": "event-mobvoi-2026-interim",
+    "title": "出门问问中期业绩介绍 Agentic 软硬件业务调整",
+    "summary": "报道介绍出门问问公布中期业绩、收缩部分非核心业务并聚焦 TicNote 与 CodeBanana 等 Agentic 软硬件产品。",
+    "eventDate": "2026-08-28",
+    "companyIds": [
+      "mobvoi"
+    ],
+    "articleIds": [
+      "mobvoi-2026-interim"
+    ]
+  },
+  {
+    "id": "event-sugon-cec-strategic",
+    "title": "中科曙光与中国电子签署战略合作协议",
+    "summary": "中科曙光公告与中国电子签约，计划围绕算力硬件、基础软件适配及智算解决方案协同研发。中国电子尚未收录为地图节点。",
+    "eventDate": "2026-05-27",
+    "companyIds": [
+      "sugon"
+    ],
+    "articleIds": [
+      "sugon-cec-strategic"
+    ]
+  },
+  {
+    "id": "event-smic-2026q2",
+    "title": "中芯国际公布第二季度经营业绩",
+    "summary": "中芯国际公布截至 2026 年 6 月 30 日止三个月经营业绩。该公告为晶圆代工业务动态，不据此推测未披露的 AI 芯片客户名单。",
+    "eventDate": "2026-08-13",
+    "companyIds": [
+      "smic"
+    ],
+    "articleIds": [
+      "smic-2026q2"
+    ]
+  },
+  {
+    "id": "event-transwarp-hygon-strategic",
+    "title": "星环与海光签约并共建联合创新中心",
+    "summary": "双方签署战略合作协议并为联合技术创新中心揭牌，围绕 AI 基础设施软件与芯片协同及行业方案合作。",
+    "eventDate": null,
+    "companyIds": [
+      "transwarp",
+      "hygon"
+    ],
+    "articleIds": [
+      "transwarp-hygon-strategic"
+    ]
+  },
+  {
+    "id": "event-transwarp-vldb2026",
+    "title": "星环认知数据库亮相 VLDB 2026",
+    "summary": "星环官网报道在 VLDB 2026 展示 GPU 原生认知数据库，介绍数据与 AI 基础设施方向。",
+    "eventDate": null,
+    "companyIds": [
+      "transwarp"
+    ],
+    "articleIds": [
+      "transwarp-vldb2026"
+    ]
+  },
+  {
+    "id": "event-kuaishou-2026q2",
+    "title": "快手中期业绩回顾可灵模型与商业化进展",
+    "summary": "快手公布第二季度及中期业绩，介绍可灵 3.0 Turbo、原生 4K 视频输出以及 MCP / CLI 等产品进展。",
+    "eventDate": "2026-08-19",
+    "companyIds": [
+      "kuaishou"
+    ],
+    "articleIds": [
+      "kuaishou-2026q2"
+    ]
+  },
+  {
+    "id": "event-huawei-modelbest-investment",
+    "title": "面壁融资引入华为哈勃投资",
+    "summary": "报道面壁智能宣布新融资，由春华创投与华为哈勃领投；华为投资映射至集团节点，不意味着控股。",
+    "eventDate": "2024-04-11",
+    "companyIds": [
+      "modelbest",
+      "huawei"
+    ],
+    "articleIds": [
+      "huawei-modelbest-investment"
+    ]
+  },
+  {
+    "id": "event-ali-01ai-lab",
+    "title": "阿里云与零一万物宣布产业大模型联合实验室",
+    "summary": "双方宣布模型平台业务战略合作，计划设立产业大模型联合实验室，覆盖技术、业务与人才。合作不能解释为阿里收购零一万物。",
+    "eventDate": "2025-01-02",
+    "companyIds": [
+      "alibaba",
+      "01ai"
+    ],
+    "articleIds": [
+      "ali-01ai-lab"
+    ]
+  },
+  {
+    "id": "event-minimax-alibaba-service-agreements",
+    "title": "MiniMax 年报披露与阿里云的双向服务协议",
+    "summary": "MiniMax 年报分别披露：MiniMax 向阿里集团业务提供 API 服务，阿里云向 MiniMax 提供云产品与服务。两类供应方向分别记录，不以股权关系代替业务证据。",
+    "eventDate": "2025-12-29",
+    "companyIds": [
+      "minimax",
+      "alibaba"
+    ],
+    "articleIds": [
+      "minimax-alibaba-service-agreements"
+    ]
+  },
+  {
+    "id": "event-xiaomi-baidu-ai-cooperation",
+    "title": "小米与百度宣布 AI 战略合作",
+    "summary": "中央社报道小米在 IoT 开发者大会宣布与百度在人工智能领域开展战略合作，结合智能终端与语音等技术。",
+    "eventDate": "2017-11-28",
+    "companyIds": [
+      "xiaomi",
+      "baidu"
+    ],
+    "articleIds": [
+      "xiaomi-baidu-ai-cooperation"
+    ]
+  },
+  {
+    "id": "event-bytedance-mthreads-investment",
+    "title": "字节跳动旗下量子跃动成为摩尔线程投资人",
+    "summary": "报道援引工商变更信息，字节跳动全资子公司北京量子跃动新增为摩尔线程投资人。此卡仅记录历史投资经历。",
+    "eventDate": null,
+    "companyIds": [
+      "bytedance",
+      "mthreads"
+    ],
+    "articleIds": [
+      "bytedance-mthreads-investment"
+    ]
+  },
+  {
+    "id": "event-kuaishou-tencent-2025-annual",
+    "title": "快手年报披露腾讯股东身份与云服务协议",
+    "summary": "快手 2025 年报将腾讯列为主要股东，并披露腾讯集团向快手提供云服务和技术服务的框架协议。股权与服务分别建立关系。",
+    "eventDate": null,
+    "companyIds": [
+      "kuaishou",
+      "tencent"
+    ],
+    "articleIds": [
+      "kuaishou-tencent-2025-annual"
+    ]
+  },
+  {
+    "id": "event-coverage-deepseek-round",
+    "title": "DeepSeek首轮融资后估值升至3508亿元，腾讯等参投",
+    "summary": "财新依据开润股份公告及基金合伙人信息报道腾讯参与 DeepSeek 首轮融资。",
+    "eventDate": null,
+    "companyIds": [
+      "tencent",
+      "deepseek"
+    ],
+    "articleIds": [
+      "coverage-deepseek-round"
+    ]
+  },
+  {
+    "id": "event-coverage-smic-joint-rd",
+    "title": "中芯国际、华为、imec及高通宣布联合研发公司",
+    "summary": "各方宣布联合设立研发公司，开展下一代 CMOS 工艺研发。",
+    "eventDate": "2015-06-23",
+    "companyIds": [
+      "smic",
+      "huawei"
+    ],
+    "articleIds": [
+      "coverage-smic-joint-rd"
+    ]
+  },
+  {
+    "id": "event-coverage-cambricon-prospectus-inspur",
+    "title": "寒武纪招股书披露向浪潮信息采购服务器",
+    "summary": "寒武纪招股书重大合同列示浪潮信息服务器委外加工订单，状态为已履行。",
+    "eventDate": "2019-10-15",
+    "companyIds": [
+      "inspur",
+      "cambricon"
+    ],
+    "articleIds": [
+      "coverage-cambricon-prospectus-inspur"
+    ]
+  },
+  {
+    "id": "event-cambricon-sugon-trade",
+    "title": "寒武纪披露与中科曙光的2019年服务器和加速卡交易",
+    "summary": "招股书披露寒武纪向中科曙光采购服务器，并向其销售研发试制加速卡。",
+    "eventDate": null,
+    "companyIds": [
+      "cambricon",
+      "sugon"
+    ],
+    "articleIds": [
+      "coverage-cambricon-prospectus-inspur"
+    ]
+  },
+  {
+    "id": "event-coverage-ucloud-metax",
+    "title": "优刻得与沐曦签署战略合作协议",
+    "summary": "双方签署战略合作协议，围绕GPU云服务、智慧城市等开展合作。",
+    "eventDate": "2022-01-18",
+    "companyIds": [
+      "ucloud",
+      "metax"
+    ],
+    "articleIds": [
+      "coverage-ucloud-metax"
+    ]
+  },
+  {
+    "id": "event-coverage-ucloud-biren",
+    "title": "优刻得与壁仞科技签署战略合作协议",
+    "summary": "双方于1月28日签署战略合作协议，涉及智慧城市、数字政府与算力生态。",
+    "eventDate": "2021-01-28",
+    "companyIds": [
+      "ucloud",
+      "biren"
+    ],
+    "articleIds": [
+      "coverage-ucloud-biren"
+    ]
+  },
+  {
+    "id": "event-coverage-baidu-modelbest",
+    "title": "百度智能云与面壁智能达成战略合作",
+    "summary": "双方10月30日签署战略合作，围绕端云协同与智能终端应用展开合作。",
+    "eventDate": "2024-10-30",
+    "companyIds": [
+      "baidu",
+      "modelbest"
+    ],
+    "articleIds": [
+      "coverage-baidu-modelbest"
+    ]
+  },
+  {
+    "id": "event-coverage-tencent-stepfun",
+    "title": "腾讯云与阶跃星辰达成战略合作",
+    "summary": "双方宣布围绕语音、端到端多模态及智能座舱主动助手开展战略合作。",
+    "eventDate": "2026-04-23",
+    "companyIds": [
+      "tencent",
+      "stepfun"
+    ],
+    "articleIds": [
+      "coverage-tencent-stepfun"
+    ]
+  },
+  {
+    "id": "event-coverage-tencent-baichuan",
+    "title": "腾讯云与百川智能宣布战略合作",
+    "summary": "双方在腾讯云AI产业应用峰会宣布战略合作。",
+    "eventDate": "2024-05-17",
+    "companyIds": [
+      "tencent",
+      "baichuan"
+    ],
+    "articleIds": [
+      "coverage-tencent-baichuan"
+    ]
+  },
+  {
+    "id": "event-coverage-alibaba-sensetime-lab",
+    "title": "商汤与阿里巴巴合作成立香港人工智能实验室",
+    "summary": "商汤官方页面记录与阿里巴巴合作成立香港人工智能实验室。",
+    "eventDate": null,
+    "companyIds": [
+      "alibaba",
+      "sensetime"
+    ],
+    "articleIds": [
+      "coverage-alibaba-sensetime-lab"
+    ]
+  },
+  {
+    "id": "event-coverage-alibaba-01ai",
+    "title": "报道回顾阿里云对零一万物的投资",
+    "summary": "报道回顾零一万物于2023年11月获得阿里云投资。",
+    "eventDate": null,
+    "companyIds": [
+      "alibaba",
+      "01ai"
+    ],
+    "articleIds": [
+      "coverage-alibaba-01ai"
+    ]
+  },
+  {
+    "id": "event-coverage-transwarp-shareholders",
+    "title": "星环科技港股上市，腾讯为股东、浪潮信息旗下实体参与基石认购",
+    "summary": "报道星环科技港股上市，并披露腾讯旗下林芝利创股东身份及浪潮信息旗下Electronic Channel基石认购。",
+    "eventDate": null,
+    "companyIds": [
+      "transwarp",
+      "tencent",
+      "inspur"
+    ],
+    "articleIds": [
+      "coverage-transwarp-shareholders"
+    ]
+  },
+  {
+    "id": "event-coverage-mthreads-lenovo-server",
+    "title": "摩尔线程与联想联合开发GPU训推一体机",
+    "summary": "联想服务器发布会上展示搭载摩尔线程MTT S3000 GPU的联合开发训推一体机。",
+    "eventDate": "2023-02-08",
+    "companyIds": [
+      "mthreads",
+      "lenovo"
+    ],
+    "articleIds": [
+      "coverage-mthreads-lenovo-server"
+    ]
+  },
+  {
+    "id": "event-coverage-thead-alibaba-compute",
+    "title": "阿里云弹性计算课程介绍倚天实例",
+    "summary": "阿里云课程整理说明倚天实例使用平头哥自研倚天710处理器，并介绍实际应用场景。",
+    "eventDate": null,
+    "companyIds": [
+      "thead",
+      "alibaba"
+    ],
+    "articleIds": [
+      "coverage-thead-alibaba-compute"
     ]
   }
 ]

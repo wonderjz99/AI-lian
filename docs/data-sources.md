@@ -90,4 +90,38 @@
 | [智谱研究列表](https://www.zhipuai.cn/zh/research) | GLM-5.3-Flash 发布信息 | 列表明确 2026-08-26，详情正文读取失败；不录入未读到的评测或规格 |
 | [摩尔线程上市公告](https://mthreads.com/news/266) | 补齐证券身份 688795 | 2025-12-05 科创板上市；仍使用同一公司节点，市值保持 null |
 
-后续优先复用的公开入口：联想创投新闻、港交所 [权益披露](https://di.hkex.com.hk/di/NSForm2.aspx?fn=CS20260722E00417)、壁仞新闻、摩尔线程新闻及智谱研究。权益披露适合更新指定股东的持股时点，但不等于完整股东名册或付费行情 API。MiniMax 2025 年报也已定位，当前资本边采用更新的 7 月 Form 2，未另行增加云服务关系或重复报道。
+后续优先复用的公开入口：联想创投新闻、港交所 [权益披露](https://di.hkex.com.hk/di/NSForm2.aspx?fn=CS20260722E00417)、壁仞新闻、摩尔线程新闻及智谱研究。权益披露适合更新指定股东的持股时点，不等于完整股东名册或行情 API。资本边采用较晚的 7 月 Form 2；后续本轮增补另从年报核对了云与 API 双向服务，不能把股权当作业务依据。
+
+## v1.2 逐公司补充与小米（2026-10-09）
+
+本轮新增小米、27 篇报道、28 个事件和 25 条关系。共 37 家公司、54 篇报道、54 个事件、46 条关系。每家公司至少有一项可追溯动态，可含历史依据；不是逐家公司最新新闻、股东和业务关系的穷尽核查。日期、具体来源与逐公司缺口见 [覆盖表](company-coverage.md) 和数据中的 evidenceNote / note。
+
+| 可靠入口 / 已使用材料 | 用途和口径 |
+| --- | --- |
+| [小米 IR 中期公告](https://ir.mi.com/static-files/62705e94-0ce0-4d98-9e51-689914b173cc) | 01810 公司身份、AI 业务；MiMo、小爱是产品或品牌，不建额外公司 |
+| [联想创投无问芯穹公告](https://capital.lenovo.com/news/detail/id/1022/s/1.html) | 2024 年融资与客户实际使用服务的两个不同事件，共用一篇报道；顺为与小米分别处理，君联不并入联想 |
+| [无问芯穹官方新闻](https://www.infinigence-ai.com/) / [文档](https://docs.infini-ai.com/) | 已找到与 MiniMax 签约；后续优先官方入口。不要误用 infini.money 金融服务或未经核实的相似域名 |
+| [华为云](https://www.huaweicloud.com/news/)、[达观](https://www.datagrand.com/)、[用友](https://www.yonyou.com/) | 联合方案与云平台服务；共同参会、适配、客户名单不能一概写成战略合作 |
+| [Seed 官方博客](https://seed.bytedance.com/)、[OpenBMB MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V) | 产品版本和发布日期；不把自述性能当独立评测 |
+| [快手年报](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401899.pdf) | 印刷页 78、80 明确腾讯股东身份与云服务方向；未填未经核对的百分比、额度或金额 |
+| [MiniMax 年报](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202118.pdf) | 印刷页 29–30 双向 API / 云服务协议，交割及生效日期分开；年度上限不是实际采购额 |
+| [中央社小米 / 百度报道](https://www.cna.com.tw/news/ait/201711280268.aspx) | 2017 年战略合作宣布，不能写成当前仍有效的采购关系 |
+| [字节投资摩尔线程报道](https://finance.sina.com.cn/chanjing/gsnews/2021-02-24/doc-ikftpnny9454546.shtml) | 明确全资投资子公司量子跃动；历史工商报道，原始登记文件未取得，当前比例未知 |
+
+未采用的推断：中芯匿名客户映射具体芯片公司、DeepSeek 第三方适配等同战略合作、无问与电信母集团签约归到上市股份公司。MiniMax 年报代码与较晚权益申报冲突尚待复核，保留既有代码，详细记录在覆盖表。中芯公告镜像及星环官网部分页面仅索引可读，新闻摘要只采用标题、日期或可读索引支持的事实；所有访问限制保留在报道字段。
+
+没有接入新 API、数据库、定时采集或模型服务。
+
+
+## v1.3 关系空白专项核对（2026-10-09）
+
+新增16条关系、14个事件、13篇来源，消除全部孤立节点。当前完整计数和逐公司缺口以 [覆盖表](company-coverage.md) 为准，以上v1.2数量为当轮历史记录。
+
+- [寒武纪招股书](https://static.sse.com.cn/stock/disclosure/announcement/c/202006/000354_20200622_AWSW.pdf)：印刷页377浪潮信息服务器订单；231—232曙光服务器采购 / 加速卡销售。历史履行记录，非2026年供货证明。不采集表格金额；本轮PDF截图工具未成功返回图像，采用可读文本和原文叙述。
+- [中芯国际联合研发公告](https://www.prnewswire.com/news-releases/smic-huawei-imec-and-qualcomm-in-joint-investment-on-smics-new-research-and-development-company-300103277.html)：发行人提供的新闻稿，合资研发主体在图外，不能把华为与中芯记为互相持股。
+- [财新 DeepSeek 融资报道](https://companies.caixin.com/m/2026-07-17/102465132.html)：基于开润股份公告和基金合伙人信息；腾讯为基金间接参与，不记直接持股比例。尚未取得完整原始基金文件。
+- [百度智能云 / 面壁合作](https://cloud.baidu.com/news/news_43a4b541-67c9-4feb-a9d0-2eee0585ee76)、[优刻得 / 沐曦签约](https://www.ucloud.cn/site/about/news/recent/20220119/5991.html)：官方公告，签约日与发稿日分开。
+- [星环上市报道](https://www.cls.cn/detail/2489396)：腾讯旗下林芝利创股东与浪潮信息旗下基石投资实体分别映射；基石认购保留已宣布状态，不推断锁定期后持仓。
+- 阿里 / 商汤实验室页面日期与正文宣布日期相差一天，事件日留空；不把旧轮融资稿当当前阿里持股证明。电信集团投资公司不自动合并到上市中国电信；百度创始员工背景、论坛同台、开放模型部署、伙伴Logo均不单独生成资本或商业关系。
+
+其余逐条URL、发布日、依据和访问限制保留在articles / relationships JSON；未接入新API或数据库。
