@@ -1,0 +1,341 @@
+[
+  {
+    "id": "huawei-wonder-partnership",
+    "source": "huawei",
+    "target": "wondershare",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2025-04-30",
+    "effectiveOn": "2025-04-29",
+    "summary": "华为云与万兴科技签订大模型及数字创意领域战略合作协议。",
+    "evidenceArticleIds": [
+      "huawei-wonder"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "公告中的联合实验室与技术目标为计划；不等于全部已交付。华为云映射到华为集团节点。"
+  },
+  {
+    "id": "huawei-wonder-supply",
+    "source": "huawei",
+    "target": "wondershare",
+    "type": "supply",
+    "status": "announced",
+    "confirmedOn": "2025-04-30",
+    "effectiveOn": null,
+    "summary": "华为云宣布将向万兴天幕提供 AI 算力及盘古基础模型支持。",
+    "evidenceArticleIds": [
+      "huawei-wonder"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "提供方 → 使用方；原文为未来支持承诺，保留“已宣布”状态。"
+  },
+  {
+    "id": "huawei-sf-partnership",
+    "source": "huawei",
+    "target": "siliconflow",
+    "type": "partnership",
+    "status": "ongoing",
+    "confirmedOn": "2026-09-22",
+    "effectiveOn": null,
+    "summary": "双方围绕昇腾推理、模型服务与行业智算生态开展合作。",
+    "evidenceArticleIds": [
+      "sf-huawei",
+      "sf-huawei-2026"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "关系仅覆盖所引来源确认的事项，不推断其他业务或资本关系。"
+  },
+  {
+    "id": "alibaba-moonshot-investment",
+    "source": "alibaba",
+    "target": "moonshot",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-05-23",
+    "effectiveOn": null,
+    "summary": "年报确认阿里巴巴在 2024 财年对 Moonshot 进行优先股投资。",
+    "evidenceArticleIds": [
+      "ali-moonshot"
+    ],
+    "ownershipPercent": 36,
+    "ownershipAsOf": "2024-03-31",
+    "note": "约 36% 为年报当期比例，后续融资可能改变持股；不作为当前比例或控制权证明。"
+  },
+  {
+    "id": "alibaba-thead-control",
+    "source": "alibaba",
+    "target": "thead",
+    "type": "control",
+    "status": "ongoing",
+    "confirmedOn": "2026-03-19",
+    "effectiveOn": null,
+    "summary": "阿里官方将平头哥列为芯片设计子公司。",
+    "evidenceArticleIds": [
+      "ali-thead"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "确认日期为资料发布日；未披露持股比例，不把“子公司”自行改写为 100% 持股。"
+  },
+  {
+    "id": "alibaba-sf-partnership",
+    "source": "alibaba",
+    "target": "siliconflow",
+    "type": "partnership",
+    "status": "announced",
+    "confirmedOn": "2025-06-18",
+    "effectiveOn": "2025-06-18",
+    "summary": "阿里云与硅基流动宣布战略合作，共建大模型生态。",
+    "evidenceArticleIds": [
+      "ali-sf"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史合作公告；截至资料截止日，未在本快照中收集所有后续履约情况。"
+  },
+  {
+    "id": "alibaba-sf-supply",
+    "source": "alibaba",
+    "target": "siliconflow",
+    "type": "supply",
+    "status": "announced",
+    "confirmedOn": "2025-06-18",
+    "effectiveOn": "2025-06-18",
+    "summary": "合作公告约定以阿里云灵骏集群支撑 SiliconCloud 服务。",
+    "evidenceArticleIds": [
+      "ali-sf"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "供应方向是算力提供方到平台；来源为未来计划，故标记已宣布。"
+  },
+  {
+    "id": "lenovo-zhipu-investment",
+    "source": "lenovo",
+    "target": "zhipu",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-01-08",
+    "effectiveOn": null,
+    "summary": "联想旗下创投业务披露智谱为被投企业。",
+    "evidenceArticleIds": [
+      "lenovo-zhipu"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "通过集团创投业务展示，不能据此认定联想集团直接持股，当前比例未收录。"
+  },
+  {
+    "id": "ucloud-zhipu-supply",
+    "source": "ucloud",
+    "target": "zhipu",
+    "type": "supply",
+    "status": "completed",
+    "confirmedOn": "2024-05-30",
+    "effectiveOn": null,
+    "summary": "优刻得披露已为智谱的模型训练和推理需求提供服务。",
+    "evidenceArticleIds": [
+      "ucloud-model-service"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史已提供服务的记录；未收录合同期限、金额或当前续约状态。"
+  },
+  {
+    "id": "ucloud-mobvoi-supply",
+    "source": "ucloud",
+    "target": "mobvoi",
+    "type": "supply",
+    "status": "completed",
+    "confirmedOn": "2024-05-30",
+    "effectiveOn": null,
+    "summary": "优刻得披露已为出门问问的模型训练和推理需求提供服务。",
+    "evidenceArticleIds": [
+      "ucloud-model-service"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史已提供服务的记录；未收录合同期限、金额或当前续约状态。"
+  },
+  {
+    "id": "huawei-iflytek-partnership",
+    "source": "huawei",
+    "target": "iflytek",
+    "type": "partnership",
+    "status": "ongoing",
+    "confirmedOn": "2025-09-17",
+    "effectiveOn": "2025-09-17",
+    "summary": "官方披露华为与科大讯飞的战略合作伙伴关系，并共同发布教育医疗一体机方案。",
+    "evidenceArticleIds": [
+      "huawei-iflytek-strategic",
+      "huawei-iflytek"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "2025-03-04 来源明确战略伙伴身份，2025-09-17 联合发布为后续活动依据；状态对应资料所确认时点，不保证所有后续计划均已交付。"
+  },
+  {
+    "id": "biren-sf-investment",
+    "source": "biren",
+    "target": "siliconflow",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-06-22",
+    "effectiveOn": null,
+    "summary": "壁仞战投参与硅基流动已完成的 B 轮融资。",
+    "evidenceArticleIds": [
+      "sf-series-b"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "通过集团战投业务参与；来源是同轮投资方的公告，未收录具体持股实体、当前比例和单家金额。不把同轮参投方彼此画成投资关系。"
+  },
+  {
+    "id": "sensetime-sf-investment",
+    "source": "sensetime",
+    "target": "siliconflow",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-06-22",
+    "effectiveOn": null,
+    "summary": "商汤战投参与硅基流动已完成的 B 轮融资。",
+    "evidenceArticleIds": [
+      "sf-series-b"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "通过集团战投业务参与；来源是同轮投资方的公告，未收录具体持股实体、当前比例和单家金额。不把同轮参投方彼此画成投资关系。"
+  },
+  {
+    "id": "alibaba-zhipu-investment",
+    "source": "alibaba",
+    "target": "zhipu",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-04-28",
+    "effectiveOn": null,
+    "summary": "智谱官方融资披露将阿里列为参与方。",
+    "evidenceArticleIds": [
+      "zhipu-financing-disclosure"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史参投记录，不能证明截至资料截止日仍持股。集团名称映射到集团节点，具体持股实体、比例及各轮完成日未收录。"
+  },
+  {
+    "id": "tencent-zhipu-investment",
+    "source": "tencent",
+    "target": "zhipu",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2024-04-28",
+    "effectiveOn": null,
+    "summary": "智谱官方融资披露将腾讯列为参与方。",
+    "evidenceArticleIds": [
+      "zhipu-financing-disclosure"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史参投记录，不能证明截至资料截止日仍持股。集团名称映射到集团节点，具体持股实体、比例及各轮完成日未收录。"
+  },
+  {
+    "id": "lenovo-metax-investment",
+    "source": "lenovo",
+    "target": "metax",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-07-31",
+    "effectiveOn": null,
+    "summary": "联想创投披露对沐曦的早期投资和后续加注。",
+    "evidenceArticleIds": [
+      "lenovo-metax-ipo",
+      "lenovo-hardware-portfolio"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "集团旗下创投业务映射到联想集团，不等于集团直接持股。首次投资仅披露为 2021 年，具体日期及当前持股、退出情况未收录。"
+  },
+  {
+    "id": "lenovo-cambricon-investment",
+    "source": "lenovo",
+    "target": "cambricon",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-07-31",
+    "effectiveOn": null,
+    "summary": "联想创投官方投资布局披露曾投资寒武纪。",
+    "evidenceArticleIds": [
+      "lenovo-hardware-portfolio"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资经历，通过集团创投业务展示；不是 2026-07-31 当日新发生的投资。具体持股实体、投资日、当前比例及退出情况未收录。"
+  },
+  {
+    "id": "lenovo-hygon-investment",
+    "source": "lenovo",
+    "target": "hygon",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-07-31",
+    "effectiveOn": null,
+    "summary": "联想创投官方投资布局披露曾投资海光信息。",
+    "evidenceArticleIds": [
+      "lenovo-hardware-portfolio"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资经历，通过集团创投业务展示；不是 2026-07-31 当日新发生的投资。具体持股实体、投资日、当前比例及退出情况未收录。"
+  },
+  {
+    "id": "lenovo-mthreads-investment",
+    "source": "lenovo",
+    "target": "mthreads",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2026-07-31",
+    "effectiveOn": null,
+    "summary": "联想创投官方投资布局披露曾投资摩尔线程。",
+    "evidenceArticleIds": [
+      "lenovo-hardware-portfolio"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资经历，通过集团创投业务展示；不是 2026-07-31 当日新发生的投资。具体持股实体、投资日、当前比例及退出情况未收录。"
+  },
+  {
+    "id": "lenovo-stepfun-investment",
+    "source": "lenovo",
+    "target": "stepfun",
+    "type": "investment",
+    "status": "completed",
+    "confirmedOn": "2025-05-23",
+    "effectiveOn": null,
+    "summary": "联想创投负责人访谈明确披露投资阶跃星辰。",
+    "evidenceArticleIds": [
+      "lenovo-stepfun-investment"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "历史投资经历，集团创投业务映射到集团；具体持股实体、交易日期与当前持股情况未收录。"
+  },
+  {
+    "id": "alibaba-minimax-investment",
+    "source": "alibaba",
+    "target": "minimax",
+    "type": "investment",
+    "status": "ongoing",
+    "confirmedOn": "2026-07-22",
+    "effectiveOn": null,
+    "summary": "阿里旗下 Alisoft China Holding 披露持有 MiniMax A 类普通股。",
+    "evidenceArticleIds": [
+      "minimax-alisoft-di"
+    ],
+    "ownershipPercent": null,
+    "ownershipAsOf": null,
+    "note": "持股记录对应 2026-07-14，不能保证截至资料截止日仍相同。申报主体为阿里旗下实体；申报比例以 A 类普通股为分母，故全公司持股比例留空，不能由参股推断控制。"
+  }
+]

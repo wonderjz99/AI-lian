@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "huawei",
+    "name": "华为",
+    "englishName": "Huawei",
+    "aliases": [
+      "华为云",
+      "昇腾",
+      "Huawei Cloud"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件",
+      "算力与云基础设施",
+      "基础模型"
+    ],
+    "description": "提供计算硬件、云基础设施与盘古等模型服务。",
+    "products": [
+      "昇腾",
+      "华为云",
+      "盘古"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆集团；华为云作为集团业务展示，不另建重复节点。",
+    "classificationReason": "以昇腾计算硬件为主节点角色，云和模型以标签补充。",
+    "sources": [
+      {
+        "title": "华为云合作公告",
+        "publisher": "华为云",
+        "url": "https://www.huaweicloud.com/news/2025/20250430105950892.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "mthreads",
+    "name": "摩尔线程",
+    "englishName": "Moore Threads",
+    "aliases": [
+      "MUSA",
+      "MTT"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "开发 GPU 与 MUSA 计算平台，参与异构推理方案研发。",
+    "products": [
+      "MUSA",
+      "MTT S5000"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆 GPU 企业，2025-12-05 在科创板上市，代码 688795；产品 MTT 不单独设节点。",
+    "classificationReason": "主要能力为 GPU 与相关计算软硬件。",
+    "sources": [
+      {
+        "title": "异构混部白皮书公告",
+        "publisher": "硅基流动",
+        "url": "https://siliconflow.cn/news/vztpt9m5ijsupt2k2quotssg",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "摩尔线程正式挂牌科创板",
+        "publisher": "摩尔线程",
+        "url": "https://mthreads.com/news/266",
+        "accessedOn": "2026-10-09"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "SSE",
+        "ticker": "688795"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "cambricon",
+    "name": "寒武纪",
+    "englishName": "Cambricon",
+    "aliases": [
+      "思元",
+      "寒武纪科技"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "研发人工智能处理器、加速卡及配套软件平台。",
+    "products": [
+      "思元系列",
+      "NeuWare"
+    ],
+    "region": "mainland",
+    "identityNote": "以中科寒武纪科技股份有限公司为公司节点，北京运营；不将各芯片型号另建节点。",
+    "classificationReason": "主要产品是 AI 加速处理器与软硬件平台。",
+    "sources": [
+      {
+        "title": "寒武纪官方公司 / 产品介绍",
+        "publisher": "寒武纪",
+        "url": "https://www.cambricon.com/index.php?a=lists&c=index&catid=7&m=content",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "hygon",
+    "name": "海光信息",
+    "englishName": "Hygon",
+    "aliases": [
+      "海光",
+      "DCU"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "研发通用处理器与协处理器，产品覆盖 CPU 和面向并行计算的 DCU。",
+    "products": [
+      "海光 CPU",
+      "海光 DCU"
+    ],
+    "region": "mainland",
+    "identityNote": "海光信息技术股份有限公司，中国大陆经营主体；与中科曙光保留独立身份。",
+    "classificationReason": "CPU 与 DCU 属于计算硬件；DCU 不等同于所有类型的 GPU。",
+    "sources": [
+      {
+        "title": "海光信息官方公司 / 产品介绍",
+        "publisher": "海光信息",
+        "url": "https://www.hygon.cn/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "sugon",
+    "name": "中科曙光",
+    "englishName": "Sugon",
+    "aliases": [
+      "曙光"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件",
+      "算力与云基础设施"
+    ],
+    "description": "提供高端计算机、存储和数据中心相关产品与解决方案。",
+    "products": [
+      "高端计算机",
+      "存储",
+      "智算基础设施"
+    ],
+    "region": "mainland",
+    "identityNote": "曙光信息产业股份有限公司，上海上市代码 603019；与海光信息是不同公司。",
+    "classificationReason": "主要提供计算整机与基础设施硬件，不作为 GPU 芯片设计公司。",
+    "sources": [
+      {
+        "title": "中科曙光官方公司 / 产品介绍",
+        "publisher": "中科曙光",
+        "url": "https://www.sugon.com/about/index",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "SSE",
+        "ticker": "603019"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "inspur",
+    "name": "浪潮信息",
+    "englishName": "IEIT Systems",
+    "aliases": [
+      "Inspur",
+      "浪潮电子信息",
+      "元脑"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件",
+      "算力与云基础设施"
+    ],
+    "description": "提供服务器、存储及面向 AI 训练和推理的计算基础设施。",
+    "products": [
+      "元脑服务器",
+      "AI 服务器",
+      "存储"
+    ],
+    "region": "mainland",
+    "identityNote": "以浪潮电子信息产业股份有限公司为节点，不将整个浪潮集团或其他上市公司合并进来。",
+    "classificationReason": "服务器和整机系统是其主要 AI 产业角色。",
+    "sources": [
+      {
+        "title": "浪潮信息官方公司 / 产品介绍",
+        "publisher": "浪潮信息",
+        "url": "https://www.ieisystem.com/about/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "metax",
+    "name": "沐曦",
+    "englishName": "MetaX",
+    "aliases": [
+      "沐曦股份",
+      "MXMACA"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "研发用于 AI 训练、推理和通用计算的 GPU，以及配套软件栈。",
+    "products": [
+      "曦云",
+      "曦思",
+      "MXMACA"
+    ],
+    "region": "mainland",
+    "identityNote": "沐曦集成电路（上海）股份有限公司，上海经营主体；官网列示科创板代码 688802。",
+    "classificationReason": "以 GPU 设计及软硬件计算平台为主要角色。",
+    "sources": [
+      {
+        "title": "沐曦官方公司 / 产品介绍",
+        "publisher": "沐曦",
+        "url": "https://www.metax-tech.com/about.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "SSE",
+        "ticker": "688802"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "thead",
+    "name": "平头哥",
+    "englishName": "T-Head",
+    "aliases": [
+      "THead",
+      "玄铁"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "阿里巴巴旗下芯片设计业务，研发处理器和计算芯片。",
+    "products": [
+      "自研 GPU",
+      "玄铁处理器"
+    ],
+    "region": "mainland",
+    "identityNote": "阿里巴巴披露的芯片设计子公司 T-Head；单独展示产业角色，未上市市值不从阿里集团市值拆分。",
+    "classificationReason": "主要角色为芯片设计，集团的云与模型业务仍归阿里巴巴节点。",
+    "sources": [
+      {
+        "title": "平头哥官方公司 / 产品介绍",
+        "publisher": "平头哥",
+        "url": "https://www.alibabagroup.com/en-US/document-1971445322303406080",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "lenovo",
+    "name": "联想集团",
+    "englishName": "Lenovo",
+    "aliases": [
+      "联想"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件",
+      "应用与行业解决方案"
+    ],
+    "description": "提供 AI 个人设备、服务器、存储与企业混合式 AI 解决方案。",
+    "products": [
+      "AI PC",
+      "ThinkSystem",
+      "混合式 AI 方案"
+    ],
+    "region": "hong-kong",
+    "identityNote": "香港上市的联想集团，港股代码 00992；中国内地及香港均有经营，集团业务合并为一个节点。",
+    "classificationReason": "设备和服务器是核心硬件角色；创投与服务记录在集团关系和其他角色中。",
+    "sources": [
+      {
+        "title": "联想集团官方公司 / 产品介绍",
+        "publisher": "联想集团",
+        "url": "https://investor.lenovo.com/en/global/home.php",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00992"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "smic",
+    "name": "中芯国际",
+    "englishName": "SMIC",
+    "aliases": [
+      "中芯",
+      "Semiconductor Manufacturing International"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "提供集成电路晶圆制造与配套技术服务，是芯片产业的制造环节。",
+    "products": [
+      "晶圆代工",
+      "工艺平台"
+    ],
+    "region": "mainland",
+    "identityNote": "中芯国际集团主要在中国大陆经营，A 股与 H 股对应同一公司节点；上市主体注册地不作为经营地域。",
+    "classificationReason": "归入芯片制造上游，不能与 GPU 设计厂商混同。",
+    "sources": [
+      {
+        "title": "中芯国际官方公司 / 产品介绍",
+        "publisher": "中芯国际",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0722/2020072200704.pdf",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00981"
+      },
+      {
+        "exchange": "SSE",
+        "ticker": "688981"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "biren",
+    "name": "壁仞科技",
+    "englishName": "Biren Technology",
+    "aliases": [
+      "壁仞",
+      "BIRENTECH"
+    ],
+    "layer": "hardware",
+    "roles": [
+      "芯片与硬件"
+    ],
+    "description": "研发通用 GPU、智能计算系统及软硬件协同平台。",
+    "products": [
+      "壁砺系列 GPU",
+      "BIRENSUPA"
+    ],
+    "region": "mainland",
+    "identityNote": "上海壁仞科技股份有限公司；官网披露于 2026-01-02 在香港上市，代码 06082。",
+    "classificationReason": "主要能力为 GPU 芯片及智能计算系统。",
+    "sources": [
+      {
+        "title": "壁仞科技官方公司 / 产品介绍",
+        "publisher": "壁仞科技",
+        "url": "https://www.birentech.com/about",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "06082"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "alibaba",
+    "name": "阿里巴巴",
+    "englishName": "Alibaba Group",
+    "aliases": [
+      "阿里",
+      "阿里云",
+      "Alibaba Cloud",
+      "通义",
+      "Qwen"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施",
+      "基础模型",
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "以云基础设施、通义模型及应用构成 AI 产品体系。",
+    "products": [
+      "阿里云",
+      "Qwen",
+      "通义"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆运营的集团；香港及美国上市为同一公司身份，不另设阿里云节点。",
+    "classificationReason": "主层选择云基础设施；模型和应用用角色标签表达。",
+    "sources": [
+      {
+        "title": "2026 财年业绩公告",
+        "publisher": "阿里巴巴",
+        "url": "https://www.alibabagroup.com/en-US/document-1991364841188622336",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "港交所上市公司介绍",
+        "publisher": "香港交易所",
+        "url": "https://www.hkex.com.hk/Join-Our-Market/IPO/Listing-with-HKEX?sc_lang=en",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "09988"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯",
+    "englishName": "Tencent",
+    "aliases": [
+      "腾讯云",
+      "混元",
+      "Hunyuan",
+      "元宝"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施",
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "提供腾讯云、混元模型及元宝等 AI 应用。",
+    "products": [
+      "腾讯云",
+      "混元",
+      "元宝",
+      "CodeBuddy"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆运营的集团；香港上市，腾讯云和混元不另设公司节点。",
+    "classificationReason": "主层选择云基础设施，其他 AI 业务记录为角色。",
+    "sources": [
+      {
+        "title": "Hy3 官方发布",
+        "publisher": "腾讯",
+        "url": "https://www.tencent.com/tencent-hunyuan-officially-releases-hy3-advancing-agent-capabilities-and-deeper-product-integration/",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "港交所上市公司介绍",
+        "publisher": "香港交易所",
+        "url": "https://www.hkex.com.hk/Join-Our-Market/IPO/Listing-with-HKEX?sc_lang=en",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00700"
+      }
+    ],
+    "marketCap": {
+      "value": 727300000000,
+      "currency": "SGD",
+      "rmbValue": 3896071116062,
+      "date": "2026-03-31",
+      "fxRate": 5.356896900951995,
+      "fxSource": {
+        "title": "2026-03-31 欧元参考汇率：CNY 7.9341、SGD 1.4811，交叉相除",
+        "publisher": "法国央行",
+        "url": "https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-de-change-parites-quotidiennes-2026-03-31",
+        "accessedOn": "2026-10-08"
+      },
+      "basis": "淡马锡披露的 2026-03-31 公司总市值 7273 亿新加坡元，原资料四舍五入至 1 亿新元；人民币为同日交叉汇率换算的约值，不是实时行情。",
+      "source": {
+        "title": "Our Portfolio：2026-03-31 上市公司市值及注释 2",
+        "publisher": "淡马锡",
+        "url": "https://www.temasek.com.sg/en/our-investments/our-portfolio.",
+        "accessedOn": "2026-10-08"
+      }
+    },
+    "valuation": null
+  },
+  {
+    "id": "baidu",
+    "name": "百度",
+    "englishName": "Baidu",
+    "aliases": [
+      "文心",
+      "ERNIE",
+      "飞桨",
+      "百度智能云"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施",
+      "基础模型",
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "提供百度智能云、文心模型、飞桨框架及 AI 应用。",
+    "products": [
+      "百度智能云",
+      "文心 ERNIE",
+      "飞桨",
+      "文心一言"
+    ],
+    "region": "mainland",
+    "identityNote": "以百度集团为节点，主要在中国大陆经营；港股与美股为同一身份，百度云、文心和飞桨不另建公司。",
+    "classificationReason": "采用云基础设施为主层，模型、平台和应用为其他角色。",
+    "sources": [
+      {
+        "title": "百度官方公司 / 产品介绍",
+        "publisher": "百度",
+        "url": "https://ir.baidu.com/company-overview",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "百度年度报告提交公告",
+        "publisher": "百度",
+        "url": "https://ir.baidu.com/news-releases/news-release-details/baidu-inc-files-its-annual-report-form-20-f-9/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "09888"
+      },
+      {
+        "exchange": "NASDAQ",
+        "ticker": "BIDU"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "bytedance",
+    "name": "字节跳动",
+    "englishName": "ByteDance",
+    "aliases": [
+      "字节",
+      "火山引擎",
+      "Volcengine",
+      "豆包",
+      "Doubao"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施",
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "通过火山引擎提供云与 AI 服务，并研发豆包系列模型与应用。",
+    "products": [
+      "火山引擎",
+      "豆包",
+      "豆包模型"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆起家的集团；火山引擎与豆包是集团业务和产品，不重复为公司节点。",
+    "classificationReason": "为保持产业链可读性，主层使用云基础设施，其他业务列为角色。",
+    "sources": [
+      {
+        "title": "字节跳动官方公司 / 产品介绍",
+        "publisher": "字节跳动",
+        "url": "https://www.bytedance.com/zh/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "ucloud",
+    "name": "优刻得",
+    "englishName": "UCloud",
+    "aliases": [
+      "UCloud",
+      "优刻得科技"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施"
+    ],
+    "description": "提供公有云、GPU 算力与私有云服务，支持模型训练和推理。",
+    "products": [
+      "GPU 云主机",
+      "UCloudStack",
+      "智算服务"
+    ],
+    "region": "mainland",
+    "identityNote": "以中国大陆优刻得公司为节点；采用官网披露的服务范围。",
+    "classificationReason": "主要提供算力与云服务，客户使用模型不使其成为基础模型开发商。",
+    "sources": [
+      {
+        "title": "优刻得官方公司 / 产品介绍",
+        "publisher": "优刻得",
+        "url": "https://www.ucloud.cn/site/about/news/recent/20240530/6651.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "chinatelecom",
+    "name": "中国电信",
+    "englishName": "China Telecom",
+    "aliases": [
+      "天翼云",
+      "TeleCloud",
+      "息壤"
+    ],
+    "layer": "cloud",
+    "roles": [
+      "算力与云基础设施",
+      "基础模型"
+    ],
+    "description": "提供天翼云、智算基础设施及星辰模型相关服务。",
+    "products": [
+      "天翼云",
+      "星辰",
+      "息壤"
+    ],
+    "region": "mainland",
+    "identityNote": "中国电信股份有限公司，主要经营地域中国大陆；天翼云归集团节点，A/H 股不重复建公司。",
+    "classificationReason": "基础网络、云与智算服务为主层，模型是其他角色。",
+    "sources": [
+      {
+        "title": "中国电信官方公司 / 产品介绍",
+        "publisher": "中国电信",
+        "url": "https://www.chinatelecom-h.com/sc/ir/faq.php",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "中国电信股票及公司资料",
+        "publisher": "中国电信",
+        "url": "https://ar2024.chinatelecom-h.com/English/about-china-telecom.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00728"
+      },
+      {
+        "exchange": "SSE",
+        "ticker": "601728"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "moonshot",
+    "name": "月之暗面",
+    "englishName": "Moonshot AI",
+    "aliases": [
+      "Kimi",
+      "Moonshot"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "研发 Kimi 模型并提供助手与 API 开放平台。",
+    "products": [
+      "Kimi",
+      "Kimi API"
+    ],
+    "region": "mainland",
+    "identityNote": "北京月之暗面科技有限公司；Kimi 是产品，非单独公司节点。",
+    "classificationReason": "以基础模型研发为主要产业角色。",
+    "sources": [
+      {
+        "title": "Moonshot AI 官网",
+        "publisher": "月之暗面",
+        "url": "https://www.moonshot.cn/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "deepseek",
+    "name": "深度求索",
+    "englishName": "DeepSeek",
+    "aliases": [
+      "DeepSeek",
+      "深度求索"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "研发 DeepSeek 模型，提供对话应用和开放 API。",
+    "products": [
+      "DeepSeek",
+      "DeepSeek API"
+    ],
+    "region": "mainland",
+    "identityNote": "杭州深度求索人工智能基础技术研究有限公司；以 DeepSeek 品牌检索。",
+    "classificationReason": "主要能力为基础模型研发。",
+    "sources": [
+      {
+        "title": "DeepSeek 官网",
+        "publisher": "深度求索",
+        "url": "https://www.deepseek.com/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "zhipu",
+    "name": "智谱",
+    "englishName": "Zhipu AI",
+    "aliases": [
+      "智谱AI",
+      "智谱华章",
+      "GLM",
+      "ChatGLM",
+      "Z.ai",
+      "清言"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "研发 GLM 系列模型，通过开放平台与智能体产品提供模型能力。",
+    "products": [
+      "GLM",
+      "BigModel",
+      "AutoGLM",
+      "智谱清言"
+    ],
+    "region": "mainland",
+    "identityNote": "北京智谱华章科技股份有限公司，主要在中国大陆经营；香港联交所代码 02513。",
+    "classificationReason": "核心能力为通用基础模型研发，API 与智能体列作其他角色。",
+    "sources": [
+      {
+        "title": "智谱官方公司 / 产品介绍",
+        "publisher": "智谱",
+        "url": "https://www.zhipuai.cn/investor_relations/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "02513"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "englishName": "MiniMax",
+    "aliases": [
+      "稀宇",
+      "海螺",
+      "Hailuo"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "应用与行业解决方案",
+      "开发工具与平台"
+    ],
+    "description": "研发文本与多模态通用模型，提供海螺等 AI 产品和开放平台。",
+    "products": [
+      "MiniMax 模型",
+      "海螺 AI",
+      "开放平台"
+    ],
+    "region": "mainland",
+    "identityNote": "以 MiniMax Group 为公司节点，中国大陆研发与运营；港股代码 00100，海螺是产品。",
+    "classificationReason": "自主研发通用模型为主要角色，应用和开放平台为其他角色。",
+    "sources": [
+      {
+        "title": "MiniMax官方公司 / 产品介绍",
+        "publisher": "MiniMax",
+        "url": "https://ir.minimax.io/zh",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "MiniMax 上市配售结果",
+        "publisher": "MiniMax",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0108/2026010801343_c.pdf",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00100"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "baichuan",
+    "name": "百川智能",
+    "englishName": "Baichuan AI",
+    "aliases": [
+      "百川",
+      "Baichuan"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "研发大语言模型与面向医疗场景的模型能力。",
+    "products": [
+      "Baichuan 模型",
+      "医疗大模型",
+      "开放平台"
+    ],
+    "region": "mainland",
+    "identityNote": "以百川智能公司为节点，中国大陆经营；模型与平台不另建节点。",
+    "classificationReason": "以模型研发为主层，医疗应用是其业务方向。",
+    "sources": [
+      {
+        "title": "百川智能官方公司 / 产品介绍",
+        "publisher": "百川智能",
+        "url": "https://www.baichuan-ai.com/vision",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "stepfun",
+    "name": "阶跃星辰",
+    "englishName": "StepFun",
+    "aliases": [
+      "阶跃",
+      "Step"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "开发工具与平台"
+    ],
+    "description": "研发 Step 系列模型，提供模型 API 和面向开发者的服务。",
+    "products": [
+      "Step 模型",
+      "Step API",
+      "AI Studio"
+    ],
+    "region": "mainland",
+    "identityNote": "上海阶跃星辰智能科技股份有限公司；依据官方平台中的公司身份与上海地址归类。",
+    "classificationReason": "基础模型为主层，开发者平台是其他角色。",
+    "sources": [
+      {
+        "title": "阶跃星辰官方公司 / 产品介绍",
+        "publisher": "阶跃星辰",
+        "url": "https://platform.stepfun.com/developer-community",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "modelbest",
+    "name": "面壁智能",
+    "englishName": "ModelBest",
+    "aliases": [
+      "面壁",
+      "MiniCPM"
+    ],
+    "layer": "model",
+    "roles": [
+      "基础模型",
+      "应用与行业解决方案"
+    ],
+    "description": "研发高效端侧模型，提供 MiniCPM 系列模型和行业方案。",
+    "products": [
+      "MiniCPM",
+      "端侧模型"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆公司，官网联系地址位于北京；MiniCPM 是模型系列，不另设公司。",
+    "classificationReason": "模型研发与端侧部署是其主要 AI 产业角色。",
+    "sources": [
+      {
+        "title": "面壁智能官方公司 / 产品介绍",
+        "publisher": "面壁智能",
+        "url": "https://www.modelbest.cn/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "englishName": "SiliconFlow",
+    "aliases": [
+      "SiliconCloud",
+      "硅基"
+    ],
+    "layer": "platform",
+    "roles": [
+      "开发工具与平台",
+      "算力与云基础设施"
+    ],
+    "description": "提供多模型 API、推理优化和算力运营服务。",
+    "products": [
+      "SiliconCloud",
+      "模型 API",
+      "推理引擎"
+    ],
+    "region": "mainland",
+    "identityNote": "北京硅基流动科技股份有限公司；平台与集团合并为一个公司节点。",
+    "classificationReason": "以开发者可调用的模型服务和推理平台为主要角色。",
+    "sources": [
+      {
+        "title": "硅基流动公司与服务介绍",
+        "publisher": "硅基流动",
+        "url": "https://siliconflow.cn/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "infiniai",
+    "name": "无问芯穹",
+    "englishName": "InfiniAI",
+    "aliases": [
+      "无问",
+      "Infini"
+    ],
+    "layer": "platform",
+    "roles": [
+      "开发工具与平台",
+      "算力与云基础设施"
+    ],
+    "description": "提供异构算力上的训练、推理及智能体基础设施平台。",
+    "products": [
+      "InfiniMizar",
+      "异构训练推理",
+      "Agentic Infra"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆经营公司，官网列示上海联系地址；云与平台业务合并一个身份。",
+    "classificationReason": "以软件平台和多芯片训练推理服务为主，兼有算力角色。",
+    "sources": [
+      {
+        "title": "无问芯穹官方公司 / 产品介绍",
+        "publisher": "无问芯穹",
+        "url": "https://www.infini-ai.com/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "transwarp",
+    "name": "星环科技",
+    "englishName": "Transwarp",
+    "aliases": [
+      "星环"
+    ],
+    "layer": "platform",
+    "roles": [
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "提供企业级数据基础软件及大模型训练、开发和运营平台。",
+    "products": [
+      "TDH",
+      "ArgoDB",
+      "LLMOps",
+      "MLOps"
+    ],
+    "region": "mainland",
+    "identityNote": "星环信息科技（上海）股份有限公司；官网列示 688031.SH、06727.HK，对应同一公司。",
+    "classificationReason": "主要是数据与 AI 基础软件平台，不能因客户行业归入应用公司。",
+    "sources": [
+      {
+        "title": "星环科技官方公司 / 产品介绍",
+        "publisher": "星环科技",
+        "url": "https://www.transwarp.cn/introduction/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "SSE",
+        "ticker": "688031"
+      },
+      {
+        "exchange": "HKEX",
+        "ticker": "06727"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "fourthparadigm",
+    "name": "第四范式",
+    "englishName": "4Paradigm",
+    "aliases": [
+      "第四范式先知",
+      "4Paradigm"
+    ],
+    "layer": "platform",
+    "roles": [
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "提供企业级 AI 平台和面向行业的智能化解决方案。",
+    "products": [
+      "先知 Sage",
+      "行业 AI 方案"
+    ],
+    "region": "mainland",
+    "identityNote": "北京第四范式智能技术股份有限公司，中国大陆经营主体；港股代码 06682。",
+    "classificationReason": "以平台为中心提供 AI 能力，行业应用列为其他角色。",
+    "sources": [
+      {
+        "title": "第四范式官方公司 / 产品介绍",
+        "publisher": "第四范式",
+        "url": "https://www.4paradigm.com/about/index.html",
+        "accessedOn": "2026-10-08"
+      },
+      {
+        "title": "第四范式官方上市公告列表",
+        "publisher": "第四范式",
+        "url": "https://4paradigm.com/about/newslist.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "06682"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "datagrand",
+    "name": "达观数据",
+    "englishName": "DataGrand",
+    "aliases": [
+      "达观"
+    ],
+    "layer": "platform",
+    "roles": [
+      "开发工具与平台",
+      "应用与行业解决方案"
+    ],
+    "description": "提供文本处理、知识管理、文档智能和智能体相关平台。",
+    "products": [
+      "文档智能",
+      "知识管理",
+      "智能体平台"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆达观数据公司；以企业品牌为一个节点，不拆分文档或智能体产品。",
+    "classificationReason": "企业文本和知识处理平台为主要角色。",
+    "sources": [
+      {
+        "title": "达观数据官方公司 / 产品介绍",
+        "publisher": "达观数据",
+        "url": "https://www.datagrand.com/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "wondershare",
+    "name": "万兴科技",
+    "englishName": "Wondershare",
+    "aliases": [
+      "万兴",
+      "喵影",
+      "天幕"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型"
+    ],
+    "description": "面向数字创意场景提供音视频软件与 AI 功能。",
+    "products": [
+      "万兴喵影",
+      "万兴播爆",
+      "天幕"
+    ],
+    "region": "mainland",
+    "identityNote": "中国大陆公司万兴科技集团股份有限公司；旗下软件不单独建节点。",
+    "classificationReason": "主要面向数字创意终端应用，音视频模型作为其他角色。",
+    "sources": [
+      {
+        "title": "华为云与万兴科技合作公告",
+        "publisher": "华为云",
+        "url": "https://www.huaweicloud.com/news/2025/20250430105950892.html",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "sensetime",
+    "name": "商汤科技",
+    "englishName": "SenseTime",
+    "aliases": [
+      "商汤",
+      "SenseNova",
+      "商量"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型",
+      "算力与云基础设施"
+    ],
+    "description": "提供生成式 AI、视觉智能与面向行业的 AI 产品及解决方案。",
+    "products": [
+      "商量 SenseNova",
+      "SenseCore",
+      "视觉智能"
+    ],
+    "region": "hong-kong",
+    "identityNote": "起源于香港、在中国内地及香港均有经营的商汤集团；港股代码 00020。集团及产品合为一个节点。",
+    "classificationReason": "以面向行业的 AI 软件与解决方案为主层，模型与智算为其他角色。",
+    "sources": [
+      {
+        "title": "商汤科技官方公司 / 产品介绍",
+        "publisher": "商汤科技",
+        "url": "https://www.sensetime.com/hk/about",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "00020"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "iflytek",
+    "name": "科大讯飞",
+    "englishName": "iFLYTEK",
+    "aliases": [
+      "讯飞",
+      "星火",
+      "Spark"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型"
+    ],
+    "description": "提供语音、教育、医疗等 AI 产品，研发讯飞星火模型。",
+    "products": [
+      "讯飞星火",
+      "AI 教育",
+      "AI 医疗"
+    ],
+    "region": "mainland",
+    "identityNote": "科大讯飞股份有限公司，中国大陆经营；星火为其模型和产品品牌。",
+    "classificationReason": "以语音及教育医疗行业应用为主层，模型能力列作其他角色。",
+    "sources": [
+      {
+        "title": "科大讯飞官方公司 / 产品介绍",
+        "publisher": "科大讯飞",
+        "url": "https://e.huawei.com/cn/news/2025/industries/education/spark-education-medical-large-model",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "yonyou",
+    "name": "用友网络",
+    "englishName": "Yonyou",
+    "aliases": [
+      "用友",
+      "YonGPT"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型"
+    ],
+    "description": "为企业提供商业软件和 AI 服务，推出 YonGPT 企业服务大模型。",
+    "products": [
+      "YonBIP",
+      "YonGPT"
+    ],
+    "region": "mainland",
+    "identityNote": "用友网络科技股份有限公司，中国大陆经营；以集团软件与企业服务为一家公司。",
+    "classificationReason": "主要面向企业经营和管理应用，企业模型为其他角色。",
+    "sources": [
+      {
+        "title": "用友网络官方公司 / 产品介绍",
+        "publisher": "用友网络",
+        "url": "https://yonyou.com/YonBIP/product/YonGPT/",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "mobvoi",
+    "name": "出门问问",
+    "englishName": "Mobvoi",
+    "aliases": [
+      "序列猴子",
+      "TicWatch"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型",
+      "芯片与硬件"
+    ],
+    "description": "提供 AI 内容创作、语音和智能设备相关产品，研发序列猴子模型。",
+    "products": [
+      "序列猴子",
+      "AI 内容创作",
+      "TicWatch"
+    ],
+    "region": "mainland",
+    "identityNote": "以出门问问集团为节点，中国大陆起家的 AI 公司；模型与设备不单独建公司节点。",
+    "classificationReason": "以面向用户的 AI 产品为主层，模型与硬件列为其他角色。",
+    "sources": [
+      {
+        "title": "出门问问官方公司 / 产品介绍",
+        "publisher": "出门问问",
+        "url": "https://www.mobvoi.com/tw/pages/about-us",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "01ai",
+    "name": "零一万物",
+    "englishName": "01.AI",
+    "aliases": [
+      "01AI",
+      "零一",
+      "Yi",
+      "万智",
+      "万策"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型",
+      "开发工具与平台"
+    ],
+    "description": "提供企业 AI 落地、智能体与行业解决方案，曾研发 Yi 系列模型。",
+    "products": [
+      "万智",
+      "万策",
+      "Yi 模型"
+    ],
+    "region": "mainland",
+    "identityNote": "2023 年在北京成立的零一万物；官网当前重点为企业 AI，未将历史公开 API 当作现行服务。",
+    "classificationReason": "依据当前企业 AI 业务，主层为应用与行业解决方案；历史模型能力保留为角色。",
+    "sources": [
+      {
+        "title": "零一万物官方公司 / 产品介绍",
+        "publisher": "零一万物",
+        "url": "https://www.lingyiwanwu.com/yi",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [],
+    "marketCap": null,
+    "valuation": null
+  },
+  {
+    "id": "kuaishou",
+    "name": "快手",
+    "englishName": "Kuaishou",
+    "aliases": [
+      "可灵",
+      "Kling",
+      "可图"
+    ],
+    "layer": "application",
+    "roles": [
+      "应用与行业解决方案",
+      "基础模型"
+    ],
+    "description": "运营内容平台，并提供可灵视频生成与可图图像生成等 AI 产品。",
+    "products": [
+      "可灵 AI",
+      "可图",
+      "快手"
+    ],
+    "region": "mainland",
+    "identityNote": "快手科技集团，主要在中国大陆经营；港股 01024 与人民币柜台是同一公司，可灵不另建节点。",
+    "classificationReason": "以内容产品与创作应用为主，生成模型是其他角色。",
+    "sources": [
+      {
+        "title": "快手官方公司 / 产品介绍",
+        "publisher": "快手",
+        "url": "https://ir.kuaishou.com/zh-hans/news-releases/news-release-details/kuaishoudamoxingshoucijitiliangxiang",
+        "accessedOn": "2026-10-08"
+      }
+    ],
+    "securities": [
+      {
+        "exchange": "HKEX",
+        "ticker": "01024"
+      }
+    ],
+    "marketCap": null,
+    "valuation": null
+  }
+]

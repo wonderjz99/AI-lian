@@ -1,0 +1,340 @@
+[
+  {
+    "id": "event-huawei-wonder",
+    "title": "万兴科技与华为云达成战略合作",
+    "summary": "双方签订战略合作协议，拟围绕盘古与天幕模型、联合实验室及云基础设施展开合作。",
+    "eventDate": "2025-04-29",
+    "companyIds": [
+      "huawei",
+      "wondershare"
+    ],
+    "articleIds": [
+      "huawei-wonder"
+    ]
+  },
+  {
+    "id": "event-sf-huawei",
+    "title": "硅基流动披露与华为的战略合作进展",
+    "summary": "公司在华为合作伙伴大会展示模型服务平台，并披露已建立合作、持续优化昇腾推理适配。",
+    "eventDate": null,
+    "companyIds": [
+      "siliconflow",
+      "huawei"
+    ],
+    "articleIds": [
+      "sf-huawei"
+    ]
+  },
+  {
+    "id": "event-sf-huawei-2026",
+    "title": "硅基流动参与华为全联接大会与 AI CITY 联盟",
+    "summary": "华为与硅基流动等伙伴共同成立 AI CITY 生态联盟，交流推理服务与行业智算实践。",
+    "eventDate": "2026-09-17",
+    "companyIds": [
+      "huawei",
+      "siliconflow"
+    ],
+    "articleIds": [
+      "sf-huawei-2026"
+    ]
+  },
+  {
+    "id": "event-sf-mthreads",
+    "title": "摩尔线程与硅基流动联合发布异构混部白皮书",
+    "summary": "双方发布 PD 分离异构算力方案，结合 MTT S5000 与硅基流动推理引擎；测试结果为发布方披露。",
+    "eventDate": null,
+    "companyIds": [
+      "mthreads",
+      "siliconflow"
+    ],
+    "articleIds": [
+      "sf-mthreads"
+    ]
+  },
+  {
+    "id": "event-sf-kimi",
+    "title": "硅基流动上线 Kimi K2.7 Code",
+    "summary": "硅基流动宣布上架月之暗面开源的 Kimi K2.7 Code；模型上架不能单独证明双方存在商业合作。",
+    "eventDate": "2026-06-18",
+    "companyIds": [
+      "siliconflow",
+      "moonshot"
+    ],
+    "articleIds": [
+      "sf-kimi"
+    ]
+  },
+  {
+    "id": "event-ali-results",
+    "title": "阿里巴巴发布 2026 财年业绩与 AI 进展",
+    "summary": "公司披露云业务增长及模型、云基础设施和应用的商业化进展。",
+    "eventDate": "2026-05-13",
+    "companyIds": [
+      "alibaba"
+    ],
+    "articleIds": [
+      "ali-results"
+    ]
+  },
+  {
+    "id": "event-tencent-hy3",
+    "title": "腾讯正式发布混元 Hy3",
+    "summary": "腾讯发布混元 Hy3，披露其接入元宝、CodeBuddy 等产品，并通过云平台提供 API。",
+    "eventDate": "2026-07-06",
+    "companyIds": [
+      "tencent"
+    ],
+    "articleIds": [
+      "tencent-hy3"
+    ]
+  },
+  {
+    "id": "event-ali-moonshot",
+    "title": "阿里巴巴年报披露对月之暗面的投资",
+    "summary": "2024 财年年报披露对 Moonshot 约 8 亿美元的优先股投资，当期约占 36%；该比例不是当前持股快照。",
+    "eventDate": null,
+    "companyIds": [
+      "alibaba",
+      "moonshot"
+    ],
+    "articleIds": [
+      "ali-moonshot"
+    ]
+  },
+  {
+    "id": "event-ali-thead",
+    "title": "阿里披露平头哥自研 GPU 进入规模化生产",
+    "summary": "阿里官方文章将平头哥称为芯片设计子公司，并介绍自研 GPU 与模型、云基础设施的协同。",
+    "eventDate": null,
+    "companyIds": [
+      "alibaba",
+      "thead"
+    ],
+    "articleIds": [
+      "ali-thead"
+    ]
+  },
+  {
+    "id": "event-ali-sf",
+    "title": "硅基流动与阿里云达成战略合作",
+    "summary": "双方宣布战略合作，SiliconCloud 计划接入百炼平台，以灵骏计算集群作为算力支撑。",
+    "eventDate": "2025-06-18",
+    "companyIds": [
+      "alibaba",
+      "siliconflow"
+    ],
+    "articleIds": [
+      "ali-sf"
+    ]
+  },
+  {
+    "id": "event-lenovo-zhipu",
+    "title": "联想创投披露被投企业智谱在港交所上市",
+    "summary": "联想创投将智谱列为被投企业，介绍其于 2026 年 1 月 8 日在香港上市，代码 02513。",
+    "eventDate": "2026-01-08",
+    "companyIds": [
+      "lenovo",
+      "zhipu"
+    ],
+    "articleIds": [
+      "lenovo-zhipu"
+    ]
+  },
+  {
+    "id": "event-ucloud-model-service",
+    "title": "优刻得披露为智谱提供训练推理服务",
+    "summary": "优刻得在智算生态公告中列举已经服务的模型企业，其中明确包括智谱的训练和推理需求。",
+    "eventDate": null,
+    "companyIds": [
+      "ucloud",
+      "zhipu"
+    ],
+    "articleIds": [
+      "ucloud-model-service"
+    ]
+  },
+  {
+    "id": "event-huawei-iflytek",
+    "title": "华为与科大讯飞联合发布教育医疗场景一体机方案",
+    "summary": "双方在华为全联接大会联合发布方案，将昇腾算力与讯飞星火模型结合，用于教育和医疗场景。",
+    "eventDate": "2025-09-17",
+    "companyIds": [
+      "huawei",
+      "iflytek"
+    ],
+    "articleIds": [
+      "huawei-iflytek"
+    ]
+  },
+  {
+    "id": "event-01ai-api-retired",
+    "title": "零一万物公告停止公开模型 API 服务",
+    "summary": "平台公告说明 2026 年 9 月 3 日停止公开模型体验及 API 调用，并安排余额退款；公司企业 AI 业务需另行了解。",
+    "eventDate": "2026-09-03",
+    "companyIds": [
+      "01ai"
+    ],
+    "articleIds": [
+      "01ai-api-retired"
+    ]
+  },
+  {
+    "id": "event-sf-series-b",
+    "title": "壁仞、商汤战投参与硅基流动 B 轮融资",
+    "summary": "金鼎资本的参投公告披露硅基流动完成超 20 亿元 B 轮融资，参与方包括壁仞战投和商汤战投。融资金额不是公司的估值，也不代表两家投资方互相投资。",
+    "eventDate": null,
+    "companyIds": [
+      "siliconflow",
+      "biren",
+      "sensetime"
+    ],
+    "articleIds": [
+      "sf-series-b"
+    ]
+  },
+  {
+    "id": "event-zhipu-financing-disclosure",
+    "title": "智谱披露累计融资，参与方包括阿里与腾讯",
+    "summary": "智谱官方披露累计获得超 25 亿元人民币融资，参与方包括阿里与腾讯。该金额是累计融资额，不是估值，也不证明两家投资方互相投资。",
+    "eventDate": null,
+    "companyIds": [
+      "zhipu",
+      "alibaba",
+      "tencent"
+    ],
+    "articleIds": [
+      "zhipu-financing-disclosure"
+    ]
+  },
+  {
+    "id": "event-lenovo-metax-ipo",
+    "title": "联想创投披露被投企业沐曦在科创板上市",
+    "summary": "沐曦于 2025 年 12 月 17 日在科创板上市，代码 688802。联想创投介绍其早期投资及后续加注经历；上市时市值不用于本版统一日期的市值映射。",
+    "eventDate": "2025-12-17",
+    "companyIds": [
+      "lenovo",
+      "metax"
+    ],
+    "articleIds": [
+      "lenovo-metax-ipo"
+    ]
+  },
+  {
+    "id": "event-lenovo-hardware-portfolio",
+    "title": "联想创投披露 AI 算力投资布局",
+    "summary": "联想创投回顾对寒武纪、海光信息、摩尔线程与沐曦的各自投资经历。此为投资方的布局披露，不代表四家被投企业相互合作或当日发生新投资。",
+    "eventDate": null,
+    "companyIds": [
+      "lenovo",
+      "cambricon",
+      "hygon",
+      "mthreads",
+      "metax"
+    ],
+    "articleIds": [
+      "lenovo-hardware-portfolio"
+    ]
+  },
+  {
+    "id": "event-lenovo-stepfun-investment",
+    "title": "联想创投访谈披露对阶跃星辰的投资",
+    "summary": "联想创投负责人在官网转载的访谈中介绍对阶跃星辰的投资及其多模态方向。观点属于受访者判断，不作为产品能力的独立验证。",
+    "eventDate": null,
+    "companyIds": [
+      "lenovo",
+      "stepfun"
+    ],
+    "articleIds": [
+      "lenovo-stepfun-investment"
+    ]
+  },
+  {
+    "id": "event-minimax-alisoft-di",
+    "title": "MiniMax 配售后阿里系股东披露持股权益",
+    "summary": "阿里旗下 Alisoft China Holding 申报持有 MiniMax 39,662,627 股 A 类普通股；配售后 A 类股份中的比例下降。该类别比例不能直接当作全公司持股比例。",
+    "eventDate": "2026-07-14",
+    "companyIds": [
+      "alibaba",
+      "minimax"
+    ],
+    "articleIds": [
+      "minimax-alisoft-di"
+    ]
+  },
+  {
+    "id": "event-biren-zhipu-glm53-adaptation",
+    "title": "壁仞完成智谱 GLM-5.3-Flash 推理验证",
+    "summary": "壁仞披露基于 SGLang 与 BIRENSUPA 软件栈，在壁砺 166M 上完成智谱 GLM-5.3-Flash 的适配和推理验证。技术结果为发布方自述。",
+    "eventDate": null,
+    "companyIds": [
+      "biren",
+      "zhipu"
+    ],
+    "articleIds": [
+      "biren-zhipu-glm53-adaptation"
+    ]
+  },
+  {
+    "id": "event-biren-minimax-h3-adaptation",
+    "title": "壁仞完成 MiniMax H3 推理验证",
+    "summary": "壁仞宣布完成 MiniMax H3 在壁砺系列 GPU 上的适配与调优，支持开发者部署多模态生成模型；效果和性能属于公司披露。",
+    "eventDate": "2026-08-03",
+    "companyIds": [
+      "biren",
+      "minimax"
+    ],
+    "articleIds": [
+      "biren-minimax-h3-adaptation"
+    ]
+  },
+  {
+    "id": "event-mthreads-deepseek-v41-adaptation",
+    "title": "摩尔线程完成 DeepSeek-V4.1-Flash 适配",
+    "summary": "摩尔线程官网宣布完成 DeepSeek-V4.1-Flash 适配。开源模型适配本身不证明双方存在采购、战略合作或投资关系。",
+    "eventDate": null,
+    "companyIds": [
+      "mthreads",
+      "deepseek"
+    ],
+    "articleIds": [
+      "mthreads-deepseek-v41-adaptation"
+    ]
+  },
+  {
+    "id": "event-mthreads-zhipu-glm53-adaptation",
+    "title": "摩尔线程完成智谱 GLM-5.3-Flash 适配",
+    "summary": "摩尔线程官网新闻列表记录其完成智谱 GLM-5.3-Flash 适配。此次只收录发布事项，不推断部署规模、性能或双方商业关系。",
+    "eventDate": null,
+    "companyIds": [
+      "mthreads",
+      "zhipu"
+    ],
+    "articleIds": [
+      "mthreads-zhipu-glm53-adaptation"
+    ]
+  },
+  {
+    "id": "event-zhipu-glm53-flash-release",
+    "title": "智谱发布 GLM-5.3-Flash",
+    "summary": "智谱官网研究列表发布 GLM-5.3-Flash 条目。此条保留官方发布信息；具体能力、价格及评测应以原始技术资料为准。",
+    "eventDate": "2026-08-26",
+    "companyIds": [
+      "zhipu"
+    ],
+    "articleIds": [
+      "zhipu-glm53-flash-release"
+    ]
+  },
+  {
+    "id": "event-mthreads-aicube-release",
+    "title": "摩尔线程发布 MTT AICUBE",
+    "summary": "摩尔线程宣布推出搭载“小麦”智能体的 MTT AICUBE，定位家庭 AI 中枢。此为厂商发布信息，不作为实际体验或性能验证。",
+    "eventDate": null,
+    "companyIds": [
+      "mthreads"
+    ],
+    "articleIds": [
+      "mthreads-aicube-release"
+    ]
+  }
+]
