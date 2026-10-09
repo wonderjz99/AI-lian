@@ -1,7 +1,7 @@
 # AI 经纬：开发进度
 
 最后更新：2026-10-09（北京时间）  
-当前阶段：桌面网页已实现，GitHub Pages 发布配置已准备；首次推送待用户终端执行  
+当前阶段：GitHub 公开仓库已创建、本地提交已保存；首次推送与 Pages 发布待完成  
 当前数据版本：v1.1.0，36 家公司、21 条关系、26 个事件、27 篇报道  
 规格依据：[第一版产品规格](docs/v1-spec.md)  
 开发规则：[AGENTS.md](AGENTS.md)
@@ -15,9 +15,9 @@
 - 当前实际存储为 JSON，没有本地数据库；后续 SQLite 采集、去重、核对及导出计划已记录，不增加第一版前置要求。
 - 上一轮 `npm run check` 和 IAB / CUA 桌面、手机关键交互通过。本轮默认命令因 tsx IPC 的 EPERM 未完整执行；等价分步的全量数据、类型、13 个单元测试与 dist 生产构建通过，IAB 桌面 / 手机增量复验通过，详见 [验收记录](docs/verification.md)。
 - 独立 Playwright CLI 浏览器启动受环境限制，未通过；不能与 IAB 实测混称为 CLI 回归通过。
-- Git 已初始化，尚未提交；尚未公开部署。用户启动的生产预览 http://127.0.0.1:4173/ 已确认运行，最终桌面 / 手机冒烟通过。
+- 本地已有提交 `0b8d0ab`（feat: publish AI 经纬 desktop website），origin 已关联 wonderjz99/AI-lian；GitHub 连接器复查远程仓库仍为空，尚未公开部署。用户启动的生产预览 http://127.0.0.1:4173/ 此前已通过复验。
 - 最新范围：先完成桌面网页与发布，手机开发和验收暂缓，保留已实现的响应式界面。用户已授权新建 AI-lian 仓库、推送代码并通过 GitHub Pages 公开发布。
-- 已准备 `.github/workflows/pages.yml` 和 `scripts/publish-github.sh`：项目检查、桌面 Playwright 回归通过后才部署；推送 main 自动更新网站。GitHub 连接器已确认账号 wonderjz99，但远程仓库尚未创建，Pages 尚未启用。
+- 已准备 `.github/workflows/pages.yml` 和 `scripts/publish-github.sh`：项目检查、桌面 Playwright 回归通过后才部署；推送 main 自动更新网站。GitHub 已确认公开仓库 wonderjz99/AI-lian 创建成功，但代码尚未推送，Pages 尚未确认启用。
 
 ## 里程碑
 
@@ -50,7 +50,7 @@
 | 浏览器实测 | 2026-10-08 IAB / CUA，桌面 1505×1045、1280×720 观察，手机 390×844；关键流程通过 |
 | CLI 浏览器 | 本轮 `npm run test:e2e` 在启动 5173 服务时 listen EPERM，未通过；用例保留，改用已有预览 IAB 实测 |
 | 本地预览 | 用户终端启动，http://127.0.0.1:4173/ 已通过最终 IAB 复验 |
-| Git / 部署 | 尚未提交 / 尚未公开发布 |
+| Git / 部署 | 本地提交 0b8d0ab；远程公开仓库已创建但为空 / 尚未公开发布 |
 | 发布准备 | Bash 语法与 Ruby YAML 解析通过，桌面 E2E 成功发现 4 项用例；脚本实际停在 GitHub API 访问预检，未创建仓库或推送 |
 
 ## 工作记录

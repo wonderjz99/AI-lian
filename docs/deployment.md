@@ -34,6 +34,8 @@ Vite 的相对资源路径 `base: './'` 保持不变，可部署于项目路径 
 
 ## 当前实际状态
 
-本地部署配置与脚本已准备；当前代理命令行访问 `api.github.com` 失败，`.git` 写入受权限限制，浏览器工具也暂时无法响应。GitHub 连接器可以读取账号资料，但当前工具未提供创建仓库或启用 Pages 的操作。因此需要用户在自己的终端执行首次发布。尚未把预计 URL 当作已上线地址，GitHub Actions 与公网浏览器验收仍待实际发布后执行。
+用户终端已创建公开仓库 wonderjz99/AI-lian，本地提交为 `0b8d0ab`，origin 已关联。GitHub 连接器实际读取确认远程仓库仍为空，尚无上传的工作流；不能将仓库创建视作网站上线。若脚本仍在运行，让它继续；若已经退出，可在用户普通终端重新运行发布脚本，它会复用现有仓库与提交，不重复创建。
+
+代理命令行仍无法连接 api.github.com，因此首次推送、启用 Pages 及触发工作流需要用户普通终端完成。GitHub Actions 与公网浏览器验收仍待实际发布后执行。
 
 官方依据：[自定义 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[创建仓库 CLI](https://cli.github.com/manual/gh_repo_create)、[Pages REST API](https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site)。
